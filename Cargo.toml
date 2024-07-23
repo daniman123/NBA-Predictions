@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "data_fetching",
+    "data_preprocessing",
+    "prediction_engine"
+]
