@@ -4,3 +4,5 @@ members = [
     "data_preprocessing",
     "prediction_engine"
 ]
+
+workspace.resolver = "2"
