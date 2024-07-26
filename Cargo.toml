@@ -5,4 +5,4 @@ members = [
     "prediction_engine"
 ]
 
-workspace.resolver = "2"
+resolver = "2"
