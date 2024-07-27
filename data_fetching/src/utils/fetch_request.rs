@@ -1,4 +1,5 @@
-use reqwest::{ Client, Error, Response, header::HeaderMap };
+use crate::Result;
+use reqwest::{ Client, Response, header::HeaderMap };
 
 /// Fetches a URL with optional headers asynchronously.
 ///
@@ -28,7 +29,7 @@ use reqwest::{ Client, Error, Response, header::HeaderMap };
 ///     }
 /// }
 /// ```
-pub async fn fetch(url: impl Into<String>, headers: Option<HeaderMap>) -> Result<Response, Error> {
+pub async fn fetch(url: impl Into<String>, headers: Option<HeaderMap>) -> Result<Response> {
     let client = Client::new();
     let mut request = client.get(url.into());
 
