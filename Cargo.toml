@@ -2,7 +2,8 @@
 members = [
     "data_fetching",
     "data_preprocessing",
-    "prediction_engine"
+    "prediction_engine",
+    "tests"
 ]
 
 resolver = "2"
