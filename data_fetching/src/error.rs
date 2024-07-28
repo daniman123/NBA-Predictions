@@ -9,4 +9,5 @@ pub enum Error {
     #[from] InvalidHeader(InvalidHeaderValue),
 
     #[from] FetchRequestError(reqwest::Error),
+    #[from] FailedToWriteBytesToFile(std::io::Error),
 }
