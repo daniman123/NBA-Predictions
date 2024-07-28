@@ -38,6 +38,7 @@ pub async fn fetch(url: impl Into<String>, headers: Option<HeaderMap>) -> Result
     }
 
     let response = request.send().await?;
+
     Ok(response)
 }
 
@@ -54,6 +55,7 @@ mod tests {
         let result = fetch("https://httpbin.org/get", Some(headers)).await;
         assert!(result.is_ok());
         let response = result.unwrap();
+        println!("{:?}", response.headers());
         assert!(response.status().is_success());
     }
 

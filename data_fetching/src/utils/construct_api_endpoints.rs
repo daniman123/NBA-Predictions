@@ -63,7 +63,10 @@ pub fn build_game_log_endpoint(
     let formatted_season = start_year
         .parse::<i32>()
         .ok()
-        .map(|year| format!("{}-{}", start_year, year + 1))?;
+        .map(|year| {
+            let next_year = (year + 1) % 100; // Get last two digits
+            format!("{}-{:02}", start_year, next_year)
+        })?;
 
     let season_type = match SeasonType::from_str_option(season_type.into().as_str()) {
         Some(SeasonType::Regular) => "Regular%20Season",
@@ -89,10 +92,12 @@ mod tests {
 
     #[test]
     fn test_team_current_regular_url() {
-        let endpoint = build_game_log_endpoint("T", "2023", "Regular Season");
+        let endpoint = build_game_log_endpoint("T", "2023-24", "Regular Season");
+        // println!("{:?}", endpoint);
 
         let mock_endpoint =
-            "https://stats.nba.com/stats/leaguegamelog?Counter=1000&DateFrom=&DateTo=&Direction=DESC&ISTRound=&LeagueID=00&PlayerOrTeam=T&Season=2023-2024&SeasonType=Regular%20Season&Sorter=DATE";
+            "https://stats.nba.com/stats/leaguegamelog?Counter=1000&DateFrom=&DateTo=&Direction=DESC&ISTRound=&LeagueID=00&PlayerOrTeam=T&Season=2023-24&SeasonType=Regular%20Season&Sorter=DATE";
+
         assert_eq!(endpoint, Some(mock_endpoint.into()))
     }
 
@@ -103,3 +108,6 @@ mod tests {
         assert_eq!(endpoint, None)
     }
 }
+
+// https://stats.nba.com/stats/leaguegamelog?Counter=1000&DateFrom=&DateTo=&Direction=DESC&ISTRound=&LeagueID=00&PlayerOrTeam=T&Season=2023-2024&SeasonType=Regular%20Season&Sorter=DATE
+// https://stats.nba.com/stats/leaguegamelog?Counter=1000&DateFrom=&DateTo=&Direction=DESC&ISTRound=&LeagueID=00&PlayerOrTeam=T&Season=2023-24&SeasonType=Regular%20Season&Sorter=DATE

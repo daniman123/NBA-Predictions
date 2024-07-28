@@ -10,5 +10,5 @@ tokio = { version = "1.39.1", features = ["full"] }
 
 
 [[test]]
-name = "fetch_headers_endpoints_test"
-path = "fetch_headers_endpoints_test.rs"
+name = "fetch_response_with_headers_test"
+path = "fetch_response_with_headers_test.rs"

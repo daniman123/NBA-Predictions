@@ -1,7 +1,6 @@
 use crate::Result;
 use reqwest::header::{
     HeaderMap,
-    HeaderName,
     HeaderValue,
     ACCEPT,
     ACCEPT_ENCODING,
@@ -20,53 +19,61 @@ use reqwest::header::{
 /// # Returns
 /// - `Ok(HeaderMap)`: A map containing all the custom headers.
 /// - `Err(reqwest::header::InvalidHeaderValue)`: If any header value fails to convert into a `HeaderValue`.
-///
-/// # Headers Included:
-/// - `Connection`: keep-alive
-/// - `Accept`: application/json, text/plain, */*
-/// - `x-nba-stats-token`: true
-/// - `User-Agent`: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36c
-/// - `x-nba-stats-origin`: stats
-/// - `Sec-Fetch-Site`: same-origin
-/// - `Sec-Fetch-Mode`: cors
-/// - `Referer`: https://stats.nba.com/
-/// - `Accept-Encoding`: gzip, deflate, br
-/// - `Accept-Language`: en-US,en;q=0.9
 pub fn custom_headers() -> Result<HeaderMap> {
-    let mut headers_map = HeaderMap::new();
+    let mut headers = HeaderMap::new();
 
-    append_header(&mut headers_map, CONNECTION, "keep-alive")?;
-    append_header(&mut headers_map, ACCEPT, "application/json, text/plain, */*")?;
-    append_header(&mut headers_map, HeaderName::from_static("x-nba-stats-token"), "true")?;
-    append_header(
-        &mut headers_map,
+    headers.insert(CONNECTION, HeaderValue::from_static("keep-alive"));
+    headers.insert(ACCEPT, HeaderValue::from_static("application/json, text/plain, */*"));
+    headers.insert("x-nba-stats-token", HeaderValue::from_static("true"));
+    headers.insert(
         USER_AGENT,
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36c"
-    )?;
-    append_header(&mut headers_map, HeaderName::from_static("x-nba-stats-origin"), "stats")?;
-    append_header(&mut headers_map, HeaderName::from_static("Sec-Fetch-Site"), "same-origin")?;
-    append_header(&mut headers_map, HeaderName::from_static("Sec-Fetch-Mode"), "cors")?;
-    append_header(&mut headers_map, REFERER, "https://stats.nba.com/")?;
-    append_header(&mut headers_map, ACCEPT_ENCODING, "gzip, deflate, br")?;
-    append_header(&mut headers_map, ACCEPT_LANGUAGE, "en-US,en;q=0.9")?;
+        HeaderValue::from_static(
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"
+        )
+    );
+    headers.insert("x-nba-stats-origin", HeaderValue::from_static("stats"));
+    headers.insert("Sec-Fetch-Site", HeaderValue::from_static("same-origin"));
+    headers.insert("Sec-Fetch-Mode", HeaderValue::from_static("cors"));
+    headers.insert(REFERER, HeaderValue::from_static("https://stats.nba.com/"));
+    headers.insert(ACCEPT_ENCODING, HeaderValue::from_static("gzip, deflate, br"));
+    headers.insert(ACCEPT_LANGUAGE, HeaderValue::from_static("en-US,en;q=0.9"));
 
-    Ok(headers_map)
+    Ok(headers)
 }
 
-/// Appends a header to the provided `HeaderMap`.
-///
-/// This helper function attempts to append a header to a `HeaderMap`, converting
-/// the header value from a string to a `HeaderValue`.
-///
-/// # Arguments
-/// - `headers`: The mutable `HeaderMap` to append to.
-/// - `name`: The name of the header, which can be converted into `HeaderName`.
-/// - `value`: The header value as a string.
-///
-/// # Returns
-/// - `Ok(())`: If the header is successfully appended.
-/// - `Err(reqwest::header::InvalidHeaderValue)`: If the conversion of the header value fails.
-fn append_header(headers: &mut HeaderMap, name: impl Into<HeaderName>, value: &str) -> Result<()> {
-    headers.append(name.into(), HeaderValue::from_str(value)?);
-    Ok(())
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use reqwest::header::HeaderValue;
+
+    #[test]
+    fn test_custom_headers() {
+        let headers = custom_headers().expect("Failed to create headers");
+
+        assert_eq!(headers.get(CONNECTION), Some(&HeaderValue::from_static("keep-alive")));
+        assert_eq!(
+            headers.get(ACCEPT),
+            Some(&HeaderValue::from_static("application/json, text/plain, */*"))
+        );
+        assert_eq!(
+            headers.get(USER_AGENT),
+            Some(
+                &HeaderValue::from_static(
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"
+                )
+            )
+        );
+        assert_eq!(headers.get(REFERER), Some(&HeaderValue::from_static("https://stats.nba.com/")));
+        assert_eq!(
+            headers.get(ACCEPT_ENCODING),
+            Some(&HeaderValue::from_static("gzip, deflate, br"))
+        );
+        assert_eq!(headers.get(ACCEPT_LANGUAGE), Some(&HeaderValue::from_static("en-US,en;q=0.9")));
+
+        // Custom headers
+        assert_eq!(headers.get("x-nba-stats-token"), Some(&HeaderValue::from_static("true")));
+        assert_eq!(headers.get("x-nba-stats-origin"), Some(&HeaderValue::from_static("stats")));
+        assert_eq!(headers.get("sec-fetch-site"), Some(&HeaderValue::from_static("same-origin")));
+        assert_eq!(headers.get("sec-fetch-mode"), Some(&HeaderValue::from_static("cors")));
+    }
 }
