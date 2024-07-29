@@ -38,8 +38,7 @@ pub async fn extract_bytes_from_response(response: Result<Response>) -> Result<B
             let bytes = response.bytes().await?;
             Ok(bytes)
         }
-        Err(e) => {
-            Err(e)
-        }
+        Err(e) => { Err(e) }
     }
 }
+
