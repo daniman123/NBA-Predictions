@@ -1,3 +1,5 @@
+use std::str::Utf8Error;
+
 // use std::fmt::Display;
 use derive_more::From;
 use reqwest::header::InvalidHeaderValue;
@@ -11,4 +13,5 @@ pub enum Error {
 
     #[from] FetchRequestError(reqwest::Error),
     #[from] FailedToWriteBytesToFile(std::io::Error),
+    #[from] CannotReadStringFromBytes(Utf8Error),
 }

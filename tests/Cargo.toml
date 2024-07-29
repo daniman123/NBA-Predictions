@@ -12,3 +12,7 @@ tokio = { version = "1.39.1", features = ["full"] }
 [[test]]
 name = "fetch_response_with_headers_test"
 path = "fetch_response_with_headers_test.rs"
+
+[[test]]
+name = "read_stored_bytes_and_convert_to_string_test"
+path = "read_stored_bytes_and_convert_to_string_test.rs"
