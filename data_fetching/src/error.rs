@@ -14,4 +14,5 @@ pub enum Error {
     #[from] FetchRequestError(reqwest::Error),
     #[from] FailedToWriteBytesToFile(std::io::Error),
     #[from] CannotReadStringFromBytes(Utf8Error),
+    #[from] CannotConvertStringToJson(serde_json::Error),
 }
