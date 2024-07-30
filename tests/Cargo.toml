@@ -18,3 +18,7 @@ path = "fetch_response_with_headers_test.rs"
 [[test]]
 name = "read_stored_bytes_and_convert_to_string_test"
 path = "read_stored_bytes_and_convert_to_string_test.rs"
+
+[[test]]
+name = "wrangle_json_data_test"
+path = "wrangle_json_data_test.rs"
