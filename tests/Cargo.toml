@@ -20,5 +20,9 @@ name = "read_stored_bytes_and_convert_to_string_test"
 path = "read_stored_bytes_and_convert_to_string_test.rs"
 
 [[test]]
+name = "decompress_bytes_to_store_as_json_test"
+path = "decompress_bytes_to_store_as_json_test.rs"
+
+[[test]]
 name = "wrangle_json_data_test"
 path = "wrangle_json_data_test.rs"

@@ -59,7 +59,7 @@ pub fn write_json_to_file<P>(path: P, contents: serde_json::Value) -> Result<()>
 where
     P: Into<PathBuf>
 {
-    let file = File::open(path.into())?;
+    let file = File::create(path.into())?;
     let mut writer = BufWriter::new(file);
     serde_json::to_writer(&mut writer, &contents).unwrap();
     writer.flush()?;
@@ -128,6 +128,7 @@ mod tests {
 
     #[test]
     fn feature() {
+        // let path = "a.json";
         let path = "../data/json_data/test_output.json";
         let json_data = json!({"name":"testName","age":123});
 
