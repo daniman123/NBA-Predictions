@@ -127,7 +127,7 @@ mod tests {
     }
 
     #[test]
-    fn feature() {
+    fn test_write_json_to_file() {
         // let path = "a.json";
         let path = "../data/json_data/test_output.json";
         let json_data = json!({"name":"testName","age":123});
