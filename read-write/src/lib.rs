@@ -1,14 +1,12 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
+use polars::prelude::*;
+
+pub fn read_df_from_json(path: &str) -> DataFrame {
+    let mut file = std::fs::File::open(path).unwrap();
+    JsonReader::new(&mut file).finish().unwrap()
 }
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
+pub fn write_df_to_json(path: &str, mut df: DataFrame) {
+    let mut file = std::fs::File::create(path).unwrap();
+    // json
+    JsonWriter::new(&mut file).with_json_format(JsonFormat::Json).finish(&mut df).unwrap();
 }
