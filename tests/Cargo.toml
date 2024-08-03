@@ -27,3 +27,8 @@ path = "decompress_bytes_to_store_as_json_test.rs"
 [[test]]
 name = "wrangle_json_data_test"
 path = "wrangle_json_data_test.rs"
+
+[[test]]
+name = "tests_p_process_dataframe"
+path = "tests_p_process_dataframe.rs"
+
