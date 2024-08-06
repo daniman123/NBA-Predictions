@@ -127,7 +127,7 @@ fn json_to_series(headers: Vec<String>, rows: Vec<Vec<Value>>) -> Vec<Series> {
                 .iter()
                 .map(|row| {
                     match &row[i] {
-                        Value::Number(n) => AnyValue::Int32(n.as_i64().unwrap_or(0) as i32),
+                        Value::Number(n) => AnyValue::Float64(n.as_f64().unwrap_or(0.0)),
                         Value::String(s) => AnyValue::String(s),
                         _ => AnyValue::Null,
                     }
