@@ -339,6 +339,7 @@ dependencies = [
  "derive_more",
  "flate2",
  "polars",
+ "read-write",
  "reqwest",
  "serde_json",
  "tokio",
@@ -1784,6 +1785,7 @@ name = "read-write"
 version = "0.1.0"
 dependencies = [
  "polars",
+ "serde",
 ]
 
 [[package]]

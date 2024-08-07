@@ -1,4 +1,5 @@
 use std::path::PathBuf;
+use crate::utils::read_write_from_file_tools::create_parent_dir_if_needed;
 use crate::Result;
 use crate::utils::{
     process_bytes::decompress_bytes_to_string,
@@ -30,7 +31,10 @@ use crate::utils::{
 ///
 /// let json_data = read_decompressed_json(PathBuf::from("path/to/compressed/file")).expect("Failed to read and parse JSON");
 /// ```
-pub fn read_decompressed_json<P>(path: P) -> Result<serde_json::Value> where P: Into<PathBuf> {
+pub fn read_decompressed_json<P>(path: P) -> Result<serde_json::Value>
+    where P: Into<PathBuf> + std::marker::Copy
+{
+    create_parent_dir_if_needed(path).unwrap();
     let bytes = read_bytes_from_file(path)?;
     // Convert stored bytes to string
     let string_data = decompress_bytes_to_string(&bytes)?;

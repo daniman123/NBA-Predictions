@@ -5,3 +5,4 @@ edition = "2021"
 
 [dependencies]
 polars = { version = "^0.41.3", features = ["json"] }
+serde = "1.0.204"

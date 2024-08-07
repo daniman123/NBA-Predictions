@@ -2,6 +2,7 @@ use polars::prelude::*;
 use serde_json::Value;
 use std::fs::File;
 use std::io::BufReader;
+use crate::utils::read_write_from_file_tools::create_parent_dir_if_needed;
 use crate::Result;
 
 /// Reads a JSON file from the specified path and parses it into a `serde_json::Value`.
@@ -38,6 +39,7 @@ use crate::Result;
 /// }
 /// ```
 fn read_json_file(path: &str) -> Result<Value> {
+    create_parent_dir_if_needed(path).unwrap();
     let file = File::open(path)?;
     let reader = BufReader::new(file);
     let json_data = serde_json::from_reader(reader)?;
@@ -145,6 +147,7 @@ fn create_dataframe(series: Vec<Series>) -> DataFrame {
 
 // Function to write the DataFrame to a JSON file
 fn write_dataframe_to_json(df: &mut DataFrame, path: &str) {
+    create_parent_dir_if_needed(path).unwrap();
     let mut file = File::create(path).expect("file should create successfully");
     JsonWriter::new(&mut file)
         .with_json_format(JsonFormat::Json)

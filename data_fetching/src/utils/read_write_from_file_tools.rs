@@ -1,5 +1,5 @@
 use crate::Result;
-use std::{ fs::{ self, File }, io::{ BufWriter, Read, Write }, path::PathBuf };
+use std::{ fs::{ self, File }, io::{ BufWriter, Read, Write }, path::{ Path, PathBuf } };
 
 /// Writes the given contents to a file at the specified path.
 ///
@@ -12,8 +12,9 @@ use std::{ fs::{ self, File }, io::{ BufWriter, Read, Write }, path::PathBuf };
 ///
 /// * `Result<()>` - Returns an `Ok(())` on success, or an error if the operation fails.
 pub fn write_to_file<P, C>(path: P, contents: C) -> Result<()>
-    where P: Into<PathBuf>, C: AsRef<[u8]>
+    where P: Into<PathBuf> + std::marker::Copy, C: AsRef<[u8]>
 {
+    create_parent_dir_if_needed(path).unwrap();
     fs::write(path.into(), contents.as_ref()).map_err(Into::into)
 }
 
@@ -56,16 +57,15 @@ pub fn write_to_file<P, C>(path: P, contents: C) -> Result<()>
 ///
 /// This function will panic if the JSON serialization fails. This is unlikely if the `serde_json::Value` is well-formed.
 pub fn write_json_to_file<P>(path: P, contents: serde_json::Value) -> Result<()>
-where
-    P: Into<PathBuf>
+    where P: Into<PathBuf> + std::marker::Copy
 {
+    create_parent_dir_if_needed(path).unwrap();
     let file = File::create(path.into())?;
     let mut writer = BufWriter::new(file);
     serde_json::to_writer(&mut writer, &contents).unwrap();
     writer.flush()?;
     Ok(())
 }
-
 
 /// Reads all bytes from a file at the given path.
 ///
@@ -91,6 +91,13 @@ pub fn read_bytes_from_file<P>(path: P) -> Result<Vec<u8>> where P: Into<PathBuf
     let mut buffer = Vec::new();
     file.read_to_end(&mut buffer)?;
     Ok(buffer)
+}
+
+pub fn create_parent_dir_if_needed<P>(file_path: P) -> Result<()> where P: Into<PathBuf> {
+    if let Some(parent) = Path::new(&file_path.into()).parent() {
+        std::fs::create_dir_all(parent)?;
+    }
+    Ok(())
 }
 
 #[cfg(test)]

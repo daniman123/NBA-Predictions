@@ -1,3 +1,4 @@
+pub mod config_reader;
 use polars::prelude::*;
 
 pub fn read_df_from_json(path: &str) -> DataFrame {
