@@ -33,3 +33,6 @@ path = "wrangle_json_data_test.rs"
 name = "tests_p_process_dataframe"
 path = "tests_p_process_dataframe.rs"
 
+[[test]]
+name = "tests_p_round_2_data_dataframe"
+path = "tests_p_round_2_data_dataframe.rs"
