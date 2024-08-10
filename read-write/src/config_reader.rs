@@ -1,6 +1,14 @@
 use serde::Deserialize;
+use std::{fs::File, io::Read};
 
-#[derive(Deserialize)]
+#[derive(Deserialize, Default)]
+pub struct ApiEndpoints {
+    pub team_stats_advanced: String,
+    pub opponent_shooting: String,
+    pub team_stats_base: String,
+}
+
+#[derive(Deserialize, Default)]
 pub struct Config {
     pub api_endpoints: ApiEndpoints,
     pub bin_data_save_paths: Vec<String>,
@@ -8,11 +16,14 @@ pub struct Config {
     pub json_data_save_paths_round_2: Vec<String>,
 }
 
-#[derive(Deserialize)]
-pub struct ApiEndpoints {
-    pub team_stats_advanced: String,
-    pub opponent_shooting: String,
-    pub team_stats_base: String,
+impl Config {
+    pub fn new() -> Self {
+        let mut file = File::open("../data/config.json").expect("Config file not found");
+        let mut data = String::new();
+        file.read_to_string(&mut data)
+            .expect("Failed to read config file");
+        serde_json::from_str::<Config>(&data).expect("Failed to parse config file")
+    }
 }
 
 // let api_endpoints = [
