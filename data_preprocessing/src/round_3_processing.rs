@@ -5,6 +5,7 @@ pub fn round_3_processing_dataframe() {
     let save_path_round_2_teams_general_advanced = &config.json_data_save_paths_round_2[0];
     let save_path_round_2_opponent_shooting_general = &config.json_data_save_paths_round_2[1];
     let save_path_round_2_teams_general_opponent = &config.json_data_save_paths_round_2[2];
+    let save_path_round_2_players_general = &config.json_data_save_paths_round_2[3];
 
     let mut df_teams_general_advanced = read_df_from_json(save_path_round_2_teams_general_advanced);
     let cols_to_remove_df_teams_general_advanced = [
@@ -88,4 +89,50 @@ pub fn round_3_processing_dataframe() {
         save_path_round_3_teams_general_opponent,
         df_teams_general_opponent,
     );
+
+    let mut df_players_general = read_df_from_json(save_path_round_2_players_general);
+    // println!("{:?}", df_players_general.get_column_names());
+    let cols_to_remove_df_players_general = [
+        "BLKA_RANK",
+        "FGM_RANK",
+        "STL_RANK",
+        "FTA_RANK",
+        "L_RANK",
+        "W_RANK",
+        "FG3_PCT_RANK",
+        "DD2_RANK",
+        "OREB_RANK",
+        "MIN_RANK",
+        "AST_RANK",
+        "FT_PCT_RANK",
+        "FG3A_RANK",
+        "FG_PCT_RANK",
+        "GP_RANK",
+        "NBA_FANTASY_PTS_RANK",
+        "FG3M_RANK",
+        "BLK_RANK",
+        "TOV_RANK",
+        "PF_RANK",
+        "WNBA_FANTASY_PTS_RANK",
+        "PLUS_MINUS_RANK",
+        "W_PCT_RANK",
+        "FGA_RANK",
+        "FTM_RANK",
+        "PTS_RANK",
+        "TD3_RANK",
+        "DREB_RANK",
+        "REB_RANK",
+        "PFD_RANK",
+        "NBA_FANTASY_PTS",
+        "WNBA_FANTASY_PTS",
+        "TD3",
+        "NICKNAME",
+        "PLUS_MINUS",
+        "DD2",
+    ];
+
+    df_players_general = df_players_general.drop_many(&cols_to_remove_df_players_general);
+    // Store df
+    let save_path_round_3_players_general = &config.json_data_save_paths_round_3[3];
+    write_df_to_json(save_path_round_3_players_general, df_players_general);
 }

@@ -6,6 +6,7 @@ pub struct ApiEndpoints {
     pub team_stats_advanced: String,
     pub opponent_shooting: String,
     pub team_stats_base: String,
+    pub player_averages: String,
 }
 
 #[derive(Deserialize, Default)]

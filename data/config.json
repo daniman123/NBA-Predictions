@@ -2,31 +2,37 @@
 	"api_endpoints": {
 		"team_stats_advanced": "https://stats.nba.com/stats/leaguedashteamstats?Conference=&DateFrom=&DateTo=&Division=&GameScope=&GameSegment=&Height=&ISTRound=&LastNGames=0&LeagueID=00&Location=&MeasureType=Advanced&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=2023-24&SeasonSegment=&SeasonType=Regular%20Season&ShotClockRange=&StarterBench=&TeamID=0&TwoWay=0&VsConference=&VsDivision=",
 		"opponent_shooting": "https://stats.nba.com/stats/leaguedashoppptshot?Conference=&DateFrom=&DateTo=&Division=&GameSegment=&GeneralRange=Overall&LastNGames=0&LeagueID=00&Location=&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&Season=2023-24&SeasonSegment=&SeasonType=Regular%20Season&TeamID=0&VsConference=&VsDivision=",
-		"team_stats_base": "https://stats.nba.com/stats/leaguedashteamstats?Conference=&DateFrom=&DateTo=&Division=&GameScope=&GameSegment=&Height=&ISTRound=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=2023-24&SeasonSegment=&SeasonType=Regular%20Season&ShotClockRange=&StarterBench=&TeamID=0&TwoWay=0&VsConference=&VsDivision="
+		"team_stats_base": "https://stats.nba.com/stats/leaguedashteamstats?Conference=&DateFrom=&DateTo=&Division=&GameScope=&GameSegment=&Height=&ISTRound=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=2023-24&SeasonSegment=&SeasonType=Regular%20Season&ShotClockRange=&StarterBench=&TeamID=0&TwoWay=0&VsConference=&VsDivision=",
+		"player_averages": "https://stats.nba.com/stats/leaguedashplayerstats?College=&Conference=&Country=&DateFrom=&DateTo=&Division=&DraftPick=&DraftYear=&GameScope=&GameSegment=&Height=&ISTRound=&LastNGames=0&LeagueID=00&Location=&MeasureType=Base&Month=0&OpponentTeamID=0&Outcome=&PORound=0&PaceAdjust=N&PerMode=PerGame&Period=0&PlayerExperience=&PlayerPosition=&PlusMinus=N&Rank=N&Season=2023-24&SeasonSegment=&SeasonType=Regular%20Season&ShotClockRange=&StarterBench=&TeamID=0&VsConference=&VsDivision=&Weight="
 	},
 	"bin_data_save_paths": [
 		"../data/raw_data/binary_data/team_stats/teams_general_advanced/per_game/2023_24/teams_general_advanced_per_game_2023_24.bin",
 		"../data/raw_data/binary_data/team_stats/opponent_shooting_general/per_game/2023_24/opponent_shooting_general_per_game_2023_24.bin",
-		"../data/raw_data/binary_data/team_stats/teams_general_opponent/per_game/2023_24/teams_general_opponent_per_game_2023_24.bin"
+		"../data/raw_data/binary_data/team_stats/teams_general_opponent/per_game/2023_24/teams_general_opponent_per_game_2023_24.bin",
+		"../data/raw_data/binary_data/player_stats/players_general/per_game/2023_24/players_general_per_game_2023_24.bin"
 	],
 	"json_data_save_paths": [
 		"../data/round_1_data/json_data/team_stats/teams_general_advanced/per_game/2023_24/teams_general_advanced_per_game_2023_24.json",
 		"../data/round_1_data/json_data/team_stats/opponent_shooting_general/per_game/2023_24/opponent_shooting_general_per_game_2023_24.json",
-		"../data/round_1_data/json_data/team_stats/teams_general_opponent/per_game/2023_24/teams_general_opponent_per_game_2023_24.json"
+		"../data/round_1_data/json_data/team_stats/teams_general_opponent/per_game/2023_24/teams_general_opponent_per_game_2023_24.json",
+		"../data/round_1_data/json_data/player_stats/players_general/per_game/2023_24/players_general_per_game_2023_24.json"
 	],
 	"json_data_save_paths_round_2": [
 		"../data/round_2_data/json_data/team_stats/teams_general_advanced/per_game/2023_24/teams_general_advanced_per_game_2023_24.json",
 		"../data/round_2_data/json_data/team_stats/opponent_shooting_general/per_game/2023_24/opponent_shooting_general_per_game_2023_24.json",
-		"../data/round_2_data/json_data/team_stats/teams_general_opponent/per_game/2023_24/teams_general_opponent_per_game_2023_24.json"
+		"../data/round_2_data/json_data/team_stats/teams_general_opponent/per_game/2023_24/teams_general_opponent_per_game_2023_24.json",
+		"../data/round_2_data/json_data/player_stats/players_general/per_game/2023_24/players_general_per_game_2023_24.json"
 	],
 	"json_data_save_paths_round_3": [
 		"../data/round_3_data/json_data/team_stats/teams_general_advanced/per_game/2023_24/teams_general_advanced_per_game_2023_24.json",
 		"../data/round_3_data/json_data/team_stats/opponent_shooting_general/per_game/2023_24/opponent_shooting_general_per_game_2023_24.json",
-		"../data/round_3_data/json_data/team_stats/teams_general_opponent/per_game/2023_24/teams_general_opponent_per_game_2023_24.json"
+		"../data/round_3_data/json_data/team_stats/teams_general_opponent/per_game/2023_24/teams_general_opponent_per_game_2023_24.json",
+		"../data/round_3_data/json_data/player_stats/players_general/per_game/2023_24/players_general_per_game_2023_24.json"
 	],
 	"json_data_save_paths_round_4": [
 		"../data/round_4_data/json_data/team_stats/teams_general_advanced/per_game/2023_24/teams_general_advanced_per_game_2023_24.json",
 		"../data/round_4_data/json_data/team_stats/opponent_shooting_general/per_game/2023_24/opponent_shooting_general_per_game_2023_24.json",
-		"../data/round_4_data/json_data/team_stats/teams_general_opponent/per_game/2023_24/teams_general_opponent_per_game_2023_24.json"
+		"../data/round_4_data/json_data/team_stats/teams_general_opponent/per_game/2023_24/teams_general_opponent_per_game_2023_24.json",
+		"../data/round_4_data/json_data/player_stats/players_general/per_game/2023_24/players_general_per_game_2023_24.json"
 	]
 }

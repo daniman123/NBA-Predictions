@@ -43,7 +43,7 @@ mod tests {
         let mut df_opponent_shooting_general = read_df_from_json(path);
 
         let cols_to_remove_df_opponent_shooting_general = ["G"];
-        
+
         df_opponent_shooting_general =
             df_opponent_shooting_general.drop_many(&cols_to_remove_df_opponent_shooting_general);
         println!("{:?}", df_opponent_shooting_general.get_column_names());
@@ -87,5 +87,55 @@ mod tests {
         df_teams_general_opponent =
             df_teams_general_opponent.drop_many(&cols_to_remove_df_teams_general_opponent);
         println!("{:?}", df_teams_general_opponent.get_column_names());
+    }
+
+    #[test]
+    fn test_round_2_players_general_data() {
+        let path =
+        "../data/round_2_data/json_data/player_stats/players_general/per_game/2023_24/players_general_per_game_2023_24.json";
+        let mut df_players_general = read_df_from_json(path);
+        println!("{:?}", df_players_general.get_column_names());
+
+        let cols_to_remove_df_players_general = [
+            "BLKA_RANK",
+            "FGM_RANK",
+            "STL_RANK",
+            "FTA_RANK",
+            "L_RANK",
+            "W_RANK",
+            "FG3_PCT_RANK",
+            "DD2_RANK",
+            "OREB_RANK",
+            "MIN_RANK",
+            "AST_RANK",
+            "FT_PCT_RANK",
+            "FG3A_RANK",
+            "FG_PCT_RANK",
+            "GP_RANK",
+            "NBA_FANTASY_PTS_RANK",
+            "FG3M_RANK",
+            "BLK_RANK",
+            "TOV_RANK",
+            "PF_RANK",
+            "WNBA_FANTASY_PTS_RANK",
+            "PLUS_MINUS_RANK",
+            "W_PCT_RANK",
+            "FGA_RANK",
+            "FTM_RANK",
+            "PTS_RANK",
+            "TD3_RANK",
+            "DREB_RANK",
+            "REB_RANK",
+            "PFD_RANK",
+            "NBA_FANTASY_PTS",
+            "WNBA_FANTASY_PTS",
+            "TD3",
+            "NICKNAME",
+            "PLUS_MINUS",
+            "DD2",
+        ];
+
+        df_players_general = df_players_general.drop_many(&cols_to_remove_df_players_general);
+        println!("{:?}", df_players_general.get_column_names());
     }
 }

@@ -19,6 +19,7 @@ async fn main() -> Result<()> {
         &config.api_endpoints.team_stats_advanced,
         &config.api_endpoints.opponent_shooting,
         &config.api_endpoints.team_stats_base,
+        &config.api_endpoints.player_averages,
     ];
 
     for (index, api_endpoint) in api_endpoints.iter().enumerate() {
