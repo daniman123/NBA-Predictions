@@ -14,6 +14,8 @@ pub struct Config {
     pub bin_data_save_paths: Vec<String>,
     pub json_data_save_paths: Vec<String>,
     pub json_data_save_paths_round_2: Vec<String>,
+    pub json_data_save_paths_round_3: Vec<String>,
+    pub json_data_save_paths_round_4: Vec<String>,
 }
 
 impl Config {
@@ -49,3 +51,5 @@ impl Config {
 //     "../data/round_2_data/json_data/team_stats/opponent_shooting_general/per_game/2023_24/opponent_shooting_general_per_game_2023_24.json",
 //     "../data/round_2_data/json_data/team_stats/teams_general_opponent/per_game/2023_24/teams_general_opponent_per_game_2023_24.json",
 // ];
+// ...
+// ...
