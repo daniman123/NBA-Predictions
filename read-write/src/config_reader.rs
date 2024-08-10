@@ -17,6 +17,7 @@ pub struct Config {
     pub json_data_save_paths_round_2: Vec<String>,
     pub json_data_save_paths_round_3: Vec<String>,
     pub json_data_save_paths_round_4: Vec<String>,
+    pub json_data_save_paths_round_5: Vec<String>,
 }
 
 impl Config {

@@ -1,0 +1,242 @@
+[
+	{
+		"PACE": 100.84,
+		"DEF_RATING": 118.4,
+		"FG2_PCT": 0.568,
+		"FG3_PCT": 0.384,
+		"FT_PCT": 0.797,
+		"TEAM_ID": 1610612737
+	},
+	{
+		"PACE": 97.98,
+		"DEF_RATING": 110.6,
+		"FG2_PCT": 0.519,
+		"FG3_PCT": 0.352,
+		"FT_PCT": 0.807,
+		"TEAM_ID": 1610612738
+	},
+	{
+		"PACE": 97.56,
+		"DEF_RATING": 115.4,
+		"FG2_PCT": 0.532,
+		"FG3_PCT": 0.373,
+		"FT_PCT": 0.756,
+		"TEAM_ID": 1610612751
+	},
+	{
+		"PACE": 97.82,
+		"DEF_RATING": 119.2,
+		"FG2_PCT": 0.578,
+		"FG3_PCT": 0.378,
+		"FT_PCT": 0.786,
+		"TEAM_ID": 1610612766
+	},
+	{
+		"PACE": 96.94,
+		"DEF_RATING": 115.7,
+		"FG2_PCT": 0.558,
+		"FG3_PCT": 0.371,
+		"FT_PCT": 0.791,
+		"TEAM_ID": 1610612741
+	},
+	{
+		"PACE": 97.62,
+		"DEF_RATING": 112.1,
+		"FG2_PCT": 0.521,
+		"FG3_PCT": 0.371,
+		"FT_PCT": 0.765,
+		"TEAM_ID": 1610612739
+	},
+	{
+		"PACE": 100.6,
+		"DEF_RATING": 114.9,
+		"FG2_PCT": 0.545,
+		"FG3_PCT": 0.369,
+		"FT_PCT": 0.758,
+		"TEAM_ID": 1610612742
+	},
+	{
+		"PACE": 97.43,
+		"DEF_RATING": 112.3,
+		"FG2_PCT": 0.521,
+		"FG3_PCT": 0.355,
+		"FT_PCT": 0.762,
+		"TEAM_ID": 1610612743
+	},
+	{
+		"PACE": 100.45,
+		"DEF_RATING": 118.0,
+		"FG2_PCT": 0.559,
+		"FG3_PCT": 0.369,
+		"FT_PCT": 0.785,
+		"TEAM_ID": 1610612765
+	},
+	{
+		"PACE": 99.91,
+		"DEF_RATING": 114.5,
+		"FG2_PCT": 0.54,
+		"FG3_PCT": 0.358,
+		"FT_PCT": 0.78,
+		"TEAM_ID": 1610612744
+	},
+	{
+		"PACE": 99.59,
+		"DEF_RATING": 112.8,
+		"FG2_PCT": 0.54,
+		"FG3_PCT": 0.349,
+		"FT_PCT": 0.773,
+		"TEAM_ID": 1610612745
+	},
+	{
+		"PACE": 102.16,
+		"DEF_RATING": 117.6,
+		"FG2_PCT": 0.561,
+		"FG3_PCT": 0.365,
+		"FT_PCT": 0.782,
+		"TEAM_ID": 1610612754
+	},
+	{
+		"PACE": 97.93,
+		"DEF_RATING": 114.6,
+		"FG2_PCT": 0.539,
+		"FG3_PCT": 0.364,
+		"FT_PCT": 0.825,
+		"TEAM_ID": 1610612746
+	},
+	{
+		"PACE": 101.38,
+		"DEF_RATING": 114.8,
+		"FG2_PCT": 0.542,
+		"FG3_PCT": 0.378,
+		"FT_PCT": 0.782,
+		"TEAM_ID": 1610612747
+	},
+	{
+		"PACE": 98.68,
+		"DEF_RATING": 113.7,
+		"FG2_PCT": 0.54,
+		"FG3_PCT": 0.378,
+		"FT_PCT": 0.764,
+		"TEAM_ID": 1610612763
+	},
+	{
+		"PACE": 96.88,
+		"DEF_RATING": 111.5,
+		"FG2_PCT": 0.553,
+		"FG3_PCT": 0.352,
+		"FT_PCT": 0.818,
+		"TEAM_ID": 1610612748
+	},
+	{
+		"PACE": 100.51,
+		"DEF_RATING": 115.0,
+		"FG2_PCT": 0.541,
+		"FG3_PCT": 0.356,
+		"FT_PCT": 0.774,
+		"TEAM_ID": 1610612749
+	},
+	{
+		"PACE": 97.79,
+		"DEF_RATING": 108.4,
+		"FG2_PCT": 0.506,
+		"FG3_PCT": 0.354,
+		"FT_PCT": 0.777,
+		"TEAM_ID": 1610612750
+	},
+	{
+		"PACE": 98.7,
+		"DEF_RATING": 111.9,
+		"FG2_PCT": 0.555,
+		"FG3_PCT": 0.348,
+		"FT_PCT": 0.771,
+		"TEAM_ID": 1610612740
+	},
+	{
+		"PACE": 95.96,
+		"DEF_RATING": 112.4,
+		"FG2_PCT": 0.539,
+		"FG3_PCT": 0.364,
+		"FT_PCT": 0.78,
+		"TEAM_ID": 1610612752
+	},
+	{
+		"PACE": 100.85,
+		"DEF_RATING": 111.0,
+		"FG2_PCT": 0.521,
+		"FG3_PCT": 0.361,
+		"FT_PCT": 0.825,
+		"TEAM_ID": 1610612760
+	},
+	{
+		"PACE": 97.37,
+		"DEF_RATING": 110.8,
+		"FG2_PCT": 0.545,
+		"FG3_PCT": 0.358,
+		"FT_PCT": 0.759,
+		"TEAM_ID": 1610612753
+	},
+	{
+		"PACE": 98.17,
+		"DEF_RATING": 113.0,
+		"FG2_PCT": 0.541,
+		"FG3_PCT": 0.356,
+		"FT_PCT": 0.826,
+		"TEAM_ID": 1610612755
+	},
+	{
+		"PACE": 99.0,
+		"DEF_RATING": 113.7,
+		"FG2_PCT": 0.529,
+		"FG3_PCT": 0.365,
+		"FT_PCT": 0.808,
+		"TEAM_ID": 1610612756
+	},
+	{
+		"PACE": 97.88,
+		"DEF_RATING": 116.6,
+		"FG2_PCT": 0.578,
+		"FG3_PCT": 0.35,
+		"FT_PCT": 0.791,
+		"TEAM_ID": 1610612757
+	},
+	{
+		"PACE": 99.47,
+		"DEF_RATING": 114.4,
+		"FG2_PCT": 0.54,
+		"FG3_PCT": 0.387,
+		"FT_PCT": 0.745,
+		"TEAM_ID": 1610612758
+	},
+	{
+		"PACE": 101.8,
+		"DEF_RATING": 115.6,
+		"FG2_PCT": 0.553,
+		"FG3_PCT": 0.374,
+		"FT_PCT": 0.782,
+		"TEAM_ID": 1610612759
+	},
+	{
+		"PACE": 99.91,
+		"DEF_RATING": 118.1,
+		"FG2_PCT": 0.567,
+		"FG3_PCT": 0.375,
+		"FT_PCT": 0.756,
+		"TEAM_ID": 1610612761
+	},
+	{
+		"PACE": 100.26,
+		"DEF_RATING": 119.6,
+		"FG2_PCT": 0.548,
+		"FG3_PCT": 0.393,
+		"FT_PCT": 0.83,
+		"TEAM_ID": 1610612762
+	},
+	{
+		"PACE": 103.07,
+		"DEF_RATING": 118.9,
+		"FG2_PCT": 0.573,
+		"FG3_PCT": 0.362,
+		"FT_PCT": 0.764,
+		"TEAM_ID": 1610612764
+	}
+]
