@@ -31,7 +31,8 @@ mod tests {
             "DREB_PCT_RANK",
             "REB_PCT_RANK",
         ];
-        df_teams_general_advanced = df_teams_general_advanced.drop_many(&cols_to_remove_df_teams_general_advanced);
+        df_teams_general_advanced =
+            df_teams_general_advanced.drop_many(&cols_to_remove_df_teams_general_advanced);
         println!("{:?}", df_teams_general_advanced.get_column_names());
     }
 
@@ -39,28 +40,12 @@ mod tests {
     fn test_round_2_opponent_shooting_general_data() {
         let path =
         "../data/round_2_data/json_data/team_stats/opponent_shooting_general/per_game/2023_24/opponent_shooting_general_per_game_2023_24.json";
-        let df_opponent_shooting_general = read_df_from_json(path);
+        let mut df_opponent_shooting_general = read_df_from_json(path);
 
-        // let cols_to_remove = [
-        //     "TEAM_ID",
-        //     "TEAM_NAME",
-        //     "TEAM_ABBREVIATION",
-        //     "GP",
-        //     "G",
-        //     "FGA_FREQUENCY",
-        //     "FGM",
-        //     "FGA",
-        //     "FG_PCT",
-        //     "EFG_PCT",
-        //     "FG2A_FREQUENCY",
-        //     "FG2M",
-        //     "FG2A",
-        //     "FG2_PCT",
-        //     "FG3A_FREQUENCY",
-        //     "FG3M",
-        //     "FG3A",
-        //     "FG3_PCT",
-        // ];
+        let cols_to_remove_df_opponent_shooting_general = ["G"];
+        
+        df_opponent_shooting_general =
+            df_opponent_shooting_general.drop_many(&cols_to_remove_df_opponent_shooting_general);
         println!("{:?}", df_opponent_shooting_general.get_column_names());
     }
 
@@ -99,7 +84,8 @@ mod tests {
             "PF_RANK",
         ];
 
-        df_teams_general_opponent = df_teams_general_opponent.drop_many(&cols_to_remove_df_teams_general_opponent);
+        df_teams_general_opponent =
+            df_teams_general_opponent.drop_many(&cols_to_remove_df_teams_general_opponent);
         println!("{:?}", df_teams_general_opponent.get_column_names());
     }
 }
