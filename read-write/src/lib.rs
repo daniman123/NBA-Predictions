@@ -1,5 +1,6 @@
 pub mod config_reader;
 use polars::prelude::*;
+use std::env;
 
 pub fn read_df_from_json(path: &str) -> DataFrame {
     let mut file = std::fs::File::open(path).unwrap();
@@ -9,10 +10,11 @@ pub fn read_df_from_json(path: &str) -> DataFrame {
 pub fn write_df_to_json(path: &str, mut df: DataFrame) {
     let mut file = std::fs::File::create(path).unwrap();
     // json
-    JsonWriter::new(&mut file).with_json_format(JsonFormat::Json).finish(&mut df).unwrap();
+    JsonWriter::new(&mut file)
+        .with_json_format(JsonFormat::Json)
+        .finish(&mut df)
+        .unwrap();
 }
-
-use std::env;
 
 #[derive(Default)]
 pub struct Config {
@@ -22,11 +24,9 @@ pub struct Config {
 
 impl Config {
     pub fn new() -> Self {
-        let input_path = env
-            ::var("INPUT_PATH")
+        let input_path = env::var("INPUT_PATH")
             .unwrap_or_else(|_| "../data/json_data/for_preprocessing_test_output.json".to_string());
-        let output_path = env
-            ::var("OUTPUT_PATH")
+        let output_path = env::var("OUTPUT_PATH")
             .unwrap_or_else(|_| "../data/processed_data/json_data/game_matchups.json".to_string());
 
         Config {
