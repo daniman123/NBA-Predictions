@@ -43,4 +43,23 @@ pub fn round_5_processing_dataframe() {
     // Store df
     let save_path_round_5_teams_general_opponent = &config.json_data_save_paths_round_5[0];
     write_df_to_json(save_path_round_5_teams_general_opponent, out);
+
+    // Players
+    let save_path_round_4_players_general = &config.json_data_save_paths_round_4[3];
+    let mut df_players_general = read_df_from_json(save_path_round_4_players_general);
+
+    df_players_general = df_players_general
+        .clone()
+        .lazy()
+        .select([
+            (col("FGA") - col("FG3A")).alias("FG2A"),
+            (col("FGM") - col("FG3M")).alias("FG2M"),
+            col("*"),
+        ])
+        .collect()
+        .unwrap();
+
+    // Store df
+    let save_path_round_5_players_general = &config.json_data_save_paths_round_5[1];
+    write_df_to_json(save_path_round_5_players_general, df_players_general);
 }

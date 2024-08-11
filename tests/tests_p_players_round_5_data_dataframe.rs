@@ -52,4 +52,25 @@ mod tests {
 
         println!("{:?}", out);
     }
+
+    #[test]
+    fn test_round_5_players_processing_dataframe() {
+        // read players df
+        let config = Config::new();
+        let save_path_round_4_players_general = &config.json_data_save_paths_round_4[3];
+        let mut df_players_general = read_df_from_json(save_path_round_4_players_general);
+
+        df_players_general = df_players_general
+            .clone()
+            .lazy()
+            .select([
+                (col("FGA") - col("FG3A")).alias("FG2A"),
+                (col("FGM") - col("FG3M")).alias("FG2M"),
+                col("*"),
+            ])
+            .collect()
+            .unwrap();
+
+        println!("{:?}", df_players_general);
+    }
 }
