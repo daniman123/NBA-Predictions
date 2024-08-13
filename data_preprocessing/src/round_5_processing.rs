@@ -37,6 +37,11 @@ pub fn round_5_processing_dataframe() {
             col("*").exclude(["TEAM_ID"]),
             col("TEAM_ID").cast(DataType::Int32),
         ])
+        .select([col("*"),(col("PACE") / col("PACE").mean()).alias("PACE_DELTA")])
+        .select([col("*"),(col("DEF_RATING") / col("DEF_RATING").mean()).alias("DEF_RATING_DELTA")])
+        .select([col("*"),(col("FG2_PCT") / col("FG2_PCT").mean()).alias("FG2_PCT_DELTA")])
+        .select([col("*"),(col("FG3_PCT") / col("FG3_PCT").mean()).alias("FG3_PCT_DELTA")])
+        .select([col("*"),(col("FT_PCT") / col("FT_PCT").mean()).alias("FT_PCT_DELTA")])
         .collect()
         .unwrap();
 

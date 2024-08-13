@@ -9,7 +9,9 @@ data_fetching = { path = "../data_fetching"}
 read-write = { path = "../read-write"}
 tokio = { version = "1.39.1", features = ["full"] }
 serde_json = "1.0.120"
-polars = { version = "^0.41.3", features = ["polars-io","json","lazy"] }
+polars = { version = "^0.41.3", features = ["polars-io","json","lazy","dtype-struct","round_series"] }
+rand = "0.8.5"
+probability = "0.20.3"
 
 
 
@@ -44,3 +46,11 @@ path = "tests_p_round_4_data_dataframe.rs"
 [[test]]
 name = "tests_p_players_round_5_data_dataframe"
 path = "tests_p_players_round_5_data_dataframe.rs"
+
+[[test]]
+name = "tests_p_prediction_engine_working_roster"
+path = "tests_p_prediction_engine_working_roster.rs"
+
+[[test]]
+name = "tests_p_fetching"
+path = "tests_p_fetching.rs"
