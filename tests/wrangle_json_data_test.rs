@@ -22,12 +22,10 @@ pub fn json_data_test() {
                 .as_array()
                 .unwrap()
                 .iter()
-                .map(|row| {
-                    match &row[i] {
-                        Value::Number(n) => AnyValue::Int32(n.as_i64().unwrap_or(0) as i32),
-                        Value::String(s) => AnyValue::String(s),
-                        _ => AnyValue::Null,
-                    }
+                .map(|row| match &row[i] {
+                    Value::Number(n) => AnyValue::Int32(n.as_i64().unwrap_or(0) as i32),
+                    Value::String(s) => AnyValue::String(s),
+                    _ => AnyValue::Null,
                 })
                 .collect();
             Series::new(header.as_str().unwrap(), column_data)
@@ -40,9 +38,11 @@ pub fn json_data_test() {
     // Print DataFrame
     println!("{:?}", df);
 
-    let mut file = std::fs::File
-        ::create("../data/json_data/for_preprocessing_test_output.json")
-        .unwrap();
+    let mut file =
+        std::fs::File::create("../data/json_data/for_preprocessing_test_output.json").unwrap();
 
-    JsonWriter::new(&mut file).with_json_format(JsonFormat::Json).finish(&mut df).unwrap();
+    JsonWriter::new(&mut file)
+        .with_json_format(JsonFormat::Json)
+        .finish(&mut df)
+        .unwrap();
 }

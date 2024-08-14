@@ -14,19 +14,6 @@ rand = "0.8.5"
 probability = "0.20.3"
 
 
-
-[[test]]
-name = "fetch_response_with_headers_test"
-path = "fetch_response_with_headers_test.rs"
-
-[[test]]
-name = "read_stored_bytes_and_convert_to_string_test"
-path = "read_stored_bytes_and_convert_to_string_test.rs"
-
-[[test]]
-name = "decompress_bytes_to_store_as_json_test"
-path = "decompress_bytes_to_store_as_json_test.rs"
-
 [[test]]
 name = "wrangle_json_data_test"
 path = "wrangle_json_data_test.rs"

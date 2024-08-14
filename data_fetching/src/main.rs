@@ -1,15 +1,11 @@
-pub mod decompressed_json_reader;
 mod error;
-mod fetch_endpoint_response;
-pub mod game_log_json_data_into_data_frame;
-pub mod utils;
+mod response_data_extractors;
+mod utils;
 
 pub use self::error::{Error, Result};
-use decompressed_json_reader::read_decompressed_json;
-use fetch_endpoint_response::get_response_bytes;
-use game_log_json_data_into_data_frame::read_json_to_df;
 use read_write::config_reader::Config;
-use utils::read_write_from_file_tools::write_json_to_file;
+use response_data_extractors::nba_api_result_sets_extractor::extract_result_sets_json_data;
+use utils::{fetch_request::fetch, req_headers::custom_headers};
 
 #[tokio::main]
 async fn main() -> Result<()> {
@@ -23,14 +19,12 @@ async fn main() -> Result<()> {
     ];
 
     for (index, api_endpoint) in api_endpoints.iter().enumerate() {
-        let bin_save_path = &config.bin_data_save_paths[index];
         let json_save_path = &config.json_data_save_paths[index];
-        let json_save_path_round_2 = &config.json_data_save_paths_round_2[index];
 
-        get_response_bytes(api_endpoint, bin_save_path).await?;
-        let json_data = read_decompressed_json(bin_save_path).unwrap();
-        write_json_to_file(json_save_path, json_data).unwrap();
-        read_json_to_df(json_save_path, json_save_path_round_2);
+        let headers = custom_headers()?;
+        let response = fetch(*api_endpoint, Some(headers)).await?;
+        let response_body = response.json().await?;
+        extract_result_sets_json_data(response_body, json_save_path)?
     }
 
     Ok(())
