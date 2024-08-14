@@ -1,27 +1,27 @@
 use crate::Result;
 use polars::prelude::*;
 use read_write::write_df_to_json;
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 use serde_json::{Map, Value};
 
 #[allow(non_snake_case)]
-#[derive(Deserialize)]
-struct NbaApiResultSetsJsonBody {
-    _parameters: Map<String, Value>,
-    _resource: Value,
+#[derive(Deserialize, Serialize)]
+pub struct NbaApiResultSetsJsonBody {
+    parameters: Map<String, Value>,
+    resource: Value,
     resultSets: Vec<ResultSets>,
 }
 
 #[allow(non_snake_case)]
-#[derive(Deserialize)]
+#[derive(Deserialize, Serialize)]
 pub struct ResultSets {
-    pub headers: Vec<Value>,
-    _name: Value,
+    pub headers: Vec<String>,
+    name: Value,
     pub rowSet: Vec<Vec<Value>>,
 }
 
 // Function to convert headers and rows into a Vec<Series>
-fn json_to_series(headers: &[Value], rows: &[Vec<Value>]) -> Vec<Series> {
+fn json_to_series(headers: &[String], rows: &[Vec<Value>]) -> Vec<Series> {
     headers
         .iter()
         .enumerate()

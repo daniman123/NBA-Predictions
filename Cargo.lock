@@ -2367,10 +2367,12 @@ name = "tests"
 version = "0.1.0"
 dependencies = [
  "data_fetching",
+ "flate2",
  "polars",
  "probability",
  "rand",
  "read-write",
+ "serde",
  "serde_json",
  "tokio",
 ]

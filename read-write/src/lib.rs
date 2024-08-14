@@ -2,7 +2,7 @@ pub mod config_reader;
 use polars::prelude::*;
 use std::{env, fs::File, io::{BufWriter, Result, Write}, path::{Path, PathBuf}};
 
-fn create_parent_dir_if_needed<P>(file_path: P) -> Result<()> where P: Into<PathBuf> {
+pub fn create_parent_dir_if_needed<P>(file_path: P) -> Result<()> where P: Into<PathBuf> {
     if let Some(parent) = Path::new(&file_path.into()).parent() {
         std::fs::create_dir_all(parent)?;
     }

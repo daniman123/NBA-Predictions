@@ -8,7 +8,6 @@ pub type Result<T> = core::result::Result<T, Error>;
 pub enum Error {
     #[from]
     InvalidHeader(InvalidHeaderValue),
-
     #[from]
     FetchRequestError(reqwest::Error),
     #[from]
