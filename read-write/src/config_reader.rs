@@ -7,12 +7,13 @@ pub struct ApiEndpoints {
     pub opponent_shooting: String,
     pub team_stats_base: String,
     pub player_averages: String,
+    pub injury_report: String,
 }
 
 #[derive(Deserialize, Default)]
 pub struct Config {
     pub api_endpoints: ApiEndpoints,
-    pub bin_data_save_paths: Vec<String>,
+    pub raw_data_save_paths: Vec<String>,
     pub json_data_save_paths: Vec<String>,
     pub json_data_save_paths_round_2: Vec<String>,
     pub json_data_save_paths_round_3: Vec<String>,

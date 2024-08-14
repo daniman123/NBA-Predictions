@@ -1,1 +1,2 @@
 pub mod nba_api_result_sets_extractor;
+pub mod rotowire_series_extractor;
