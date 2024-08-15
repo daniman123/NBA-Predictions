@@ -1,27 +1,24 @@
 use crate::Result;
-use flate2::read::GzDecoder;
+use bytes::Bytes;
+use read_write::gzip_decompress_bytes_to_string;
 use reqwest::{header::HeaderMap, Client, Response};
 use serde_json::Value;
-use std::io::Read;
 
 /// Wrapper function for extracting response body as json
-/// 
+///
 /// This function gets the response body as bytes and decompresses it,
 /// according to encoding, as stated in response header. This wrapper function should work
 /// broadly for all response bodies irregardless of api used (within this project.).
-/// 
+///
 /// # Arguments
-/// - `response`: The 'Response' from the fetch request.
-/// 
+/// - `response_body_bytes`: The 'Response' body from the fetch request as 'Bytes'.
+///
 /// # Returns
 /// - `Ok(Value)`: The response body as json object.
 /// - `Err(serde_json::Error)`: If there is an error during the response handling.
-pub async fn get_response_as_json(response: Response) -> Result<Value> {
-    let response_body_bytes = response.bytes().await?;
-    let mut d = GzDecoder::new(&response_body_bytes[..]);
-    let mut s = String::new();
-    d.read_to_string(&mut s).unwrap();
-    let response_body_json = serde_json::from_str::<Value>(&s)?;
+pub fn get_response_as_json(response_body_bytes: Bytes) -> Result<Value> {
+    let response_body_json = gzip_decompress_bytes_to_string(response_body_bytes);
+    let response_body_json = serde_json::from_str::<Value>(&response_body_json)?;
     Ok(response_body_json)
 }
 
