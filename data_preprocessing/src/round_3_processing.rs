@@ -2,10 +2,10 @@ use read_write::{config_reader::Config, read_df_from_json, write_df_to_json};
 
 pub fn round_3_processing_dataframe() {
     let config = Config::new();
-    let save_path_round_2_teams_general_advanced = &config.json_data_save_paths[0];
-    let save_path_round_2_opponent_shooting_general = &config.json_data_save_paths[1];
-    let save_path_round_2_teams_general_opponent = &config.json_data_save_paths[2];
-    let save_path_round_2_players_general = &config.json_data_save_paths[3];
+    let save_path_round_2_teams_general_advanced = &config.json_data_save_paths_round_2[0];
+    let save_path_round_2_opponent_shooting_general = &config.json_data_save_paths_round_2[1];
+    let save_path_round_2_teams_general_opponent = &config.json_data_save_paths_round_2[2];
+    let save_path_round_2_players_general = &config.json_data_save_paths_round_2[3];
 
     let mut df_teams_general_advanced = read_df_from_json(save_path_round_2_teams_general_advanced);
     let cols_to_remove_df_teams_general_advanced = [

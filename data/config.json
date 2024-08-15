@@ -7,11 +7,11 @@
 		"injury_report": "https://www.rotowire.com/basketball/tables/injury-report.php?team=ALL&pos=ALL"
 	},
 	"raw_data_save_paths": [
-		"../data/raw_data/json_data/team_stats/teams_general_advanced/per_game/2023_24/teams_general_advanced_per_game_2023_24.json",
-		"../data/raw_data/json_data/team_stats/opponent_shooting_general/per_game/2023_24/opponent_shooting_general_per_game_2023_24.json",
-		"../data/raw_data/json_data/team_stats/teams_general_opponent/per_game/2023_24/teams_general_opponent_per_game_2023_24.json",
-		"../data/raw_data/json_data/player_stats/players_general/per_game/2023_24/players_general_per_game_2023_24.json",
-		"../data/raw_data/json_data/player_stats/injury_report/2023_24/players_injury_report_2023_24.json"
+		"../data/raw_data/binary_data/team_stats/teams_general_advanced/per_game/2023_24/teams_general_advanced_per_game_2023_24.bin",
+		"../data/raw_data/binary_data/team_stats/opponent_shooting_general/per_game/2023_24/opponent_shooting_general_per_game_2023_24.bin",
+		"../data/raw_data/binary_data/team_stats/teams_general_opponent/per_game/2023_24/teams_general_opponent_per_game_2023_24.bin",
+		"../data/raw_data/binary_data/player_stats/players_general/per_game/2023_24/players_general_per_game_2023_24.bin",
+		"../data/raw_data/binary_data/player_stats/injury_report/2023_24/players_injury_report_2023_24.bin"
 	],
 	"json_data_save_paths": [
 		"../data/round_1_data/json_data/team_stats/teams_general_advanced/per_game/2023_24/teams_general_advanced_per_game_2023_24.json",
@@ -24,7 +24,8 @@
 		"../data/round_2_data/json_data/team_stats/teams_general_advanced/per_game/2023_24/teams_general_advanced_per_game_2023_24.json",
 		"../data/round_2_data/json_data/team_stats/opponent_shooting_general/per_game/2023_24/opponent_shooting_general_per_game_2023_24.json",
 		"../data/round_2_data/json_data/team_stats/teams_general_opponent/per_game/2023_24/teams_general_opponent_per_game_2023_24.json",
-		"../data/round_2_data/json_data/player_stats/players_general/per_game/2023_24/players_general_per_game_2023_24.json"
+		"../data/round_2_data/json_data/player_stats/players_general/per_game/2023_24/players_general_per_game_2023_24.json",
+		"../data/round_2_data/json_data/player_stats/injury_report/2023_24/players_injury_report_2023_24.json"
 	],
 	"json_data_save_paths_round_3": [
 		"../data/round_3_data/json_data/team_stats/teams_general_advanced/per_game/2023_24/teams_general_advanced_per_game_2023_24.json",

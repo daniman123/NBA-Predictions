@@ -1,12 +1,38 @@
 pub mod config_reader;
+use bytes::Bytes;
+use flate2::read::GzDecoder;
 use polars::prelude::*;
-use std::{env, fs::File, io::{BufWriter, Result, Write}, path::{Path, PathBuf}};
+use std::io::Read;
+use std::{
+    env,
+    fs::{write, File},
+    io::{BufWriter, Result, Write},
+    path::{Path, PathBuf},
+};
 
-pub fn create_parent_dir_if_needed<P>(file_path: P) -> Result<()> where P: Into<PathBuf> {
+pub fn create_parent_dir_if_needed<P>(file_path: P) -> Result<()>
+where
+    P: Into<PathBuf>,
+{
     if let Some(parent) = Path::new(&file_path.into()).parent() {
         std::fs::create_dir_all(parent)?;
     }
     Ok(())
+}
+
+pub fn gzip_decompress_bytes_to_string(bytes: Bytes) -> String {
+    let mut d = GzDecoder::new(&bytes[..]);
+    let mut s = String::new();
+    d.read_to_string(&mut s).unwrap();
+    s
+}
+
+pub fn write_bytes_to_file<P>(path: P, bytes: Bytes)
+where
+    P: Into<PathBuf> + std::marker::Copy,
+{
+    create_parent_dir_if_needed(path).unwrap();
+    write(path.into(), bytes).unwrap()
 }
 
 /// Writes the given JSON contents to the specified file path.
@@ -48,7 +74,8 @@ pub fn create_parent_dir_if_needed<P>(file_path: P) -> Result<()> where P: Into<
 ///
 /// This function will panic if the JSON serialization fails. This is unlikely if the `serde_json::Value` is well-formed.
 pub fn serde_json_writer<P>(path: P, contents: serde_json::Value) -> Result<()>
-    where P: Into<PathBuf> + std::marker::Copy
+where
+    P: Into<PathBuf> + std::marker::Copy,
 {
     create_parent_dir_if_needed(path).unwrap();
     let file = File::create(path.into())?;

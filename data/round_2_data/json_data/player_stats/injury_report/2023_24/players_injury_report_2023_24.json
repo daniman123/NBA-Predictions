@@ -3,1512 +3,1512 @@
 		"ID": "3445",
 		"URL": "/basketball/player/steven-adams-3445",
 		"firstname": "Steven",
-		"injury": "Knee",
 		"lastname": "Adams",
 		"player": "Steven Adams",
+		"team": "HOU",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "HOU"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5683",
 		"URL": "/basketball/player/ochai-agbaji-5683",
 		"firstname": "Ochai",
-		"injury": "Lower Leg",
 		"lastname": "Agbaji",
 		"player": "Ochai Agbaji",
+		"team": "TOR",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Lower Leg",
 		"status": "Game Time Decision",
-		"team": "TOR"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4454",
 		"URL": "/basketball/player/grayson-allen-4454",
 		"firstname": "Grayson",
-		"injury": "Ankle",
 		"lastname": "Allen",
 		"player": "Grayson Allen",
+		"team": "PHX",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "PHX"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4121",
 		"URL": "/basketball/player/og-anunoby-4121",
 		"firstname": "OG",
-		"injury": "Hamstring",
 		"lastname": "Anunoby",
 		"player": "OG Anunoby",
+		"team": "NYK",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Hamstring",
 		"status": "Game Time Decision",
-		"team": "NYK"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4397",
 		"URL": "/basketball/player/marvin-bagley-4397",
 		"firstname": "Marvin",
-		"injury": "Knee",
 		"lastname": "Bagley",
 		"player": "Marvin Bagley",
+		"team": "WAS",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "WAS"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5151",
 		"URL": "/basketball/player/lamelo-ball-5151",
 		"firstname": "LaMelo",
-		"injury": "Ankle",
 		"lastname": "Ball",
 		"player": "LaMelo Ball",
+		"team": "CHA",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "CHA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4110",
 		"URL": "/basketball/player/lonzo-ball-4110",
 		"firstname": "Lonzo",
-		"injury": "Knee",
 		"lastname": "Ball",
 		"player": "Lonzo Ball",
+		"team": "CHI",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "CHI"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5159",
 		"URL": "/basketball/player/desmond-bane-5159",
 		"firstname": "Desmond",
-		"injury": "Back",
 		"lastname": "Bane",
 		"player": "Desmond Bane",
+		"team": "MEM",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Back",
 		"status": "Game Time Decision",
-		"team": "MEM"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5670",
 		"URL": "/basketball/player/dominick-barlow-5670",
 		"firstname": "Dominick",
-		"injury": "Knee",
 		"lastname": "Barlow",
 		"player": "Dominick Barlow",
+		"team": "ATL",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "ATL"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4833",
 		"URL": "/basketball/player/charles-bassey-4833",
 		"firstname": "Charles",
-		"injury": "Knee",
 		"lastname": "Bassey",
 		"player": "Charles Bassey",
+		"team": "SAS",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "SAS"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4378",
 		"URL": "/basketball/player/keita-bates-diop-4378",
 		"firstname": "Keita",
-		"injury": "Lower Leg",
 		"lastname": "Bates-Diop",
 		"player": "Keita Bates-Diop",
+		"team": "NYK",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Lower Leg",
 		"status": "Game Time Decision",
-		"team": "NYK"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5182",
 		"URL": "/basketball/player/saddiq-bey-5182",
 		"firstname": "Saddiq",
-		"injury": "Knee",
 		"lastname": "Bey",
 		"player": "Saddiq Bey",
+		"team": "WAS",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Out",
-		"team": "WAS"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6162",
 		"URL": "/basketball/player/onuralp-bitim-6162",
 		"firstname": "Onuralp",
-		"injury": "Eye",
 		"lastname": "Bitim",
 		"player": "Onuralp Bitim",
+		"team": "CHI",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Eye",
 		"status": "Game Time Decision",
-		"team": "CHI"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3236",
 		"URL": "/basketball/player/bojan-bogdanovic-3236",
 		"firstname": "Bojan",
-		"injury": "Wrist",
 		"lastname": "Bogdanovic",
 		"player": "Bojan Bogdanovic",
+		"team": "BKN",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Wrist",
 		"status": "Game Time Decision",
-		"team": "BKN"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4143",
 		"URL": "/basketball/player/chris-boucher-4143",
 		"firstname": "Chris",
-		"injury": "Knee",
 		"lastname": "Boucher",
 		"player": "Chris Boucher",
+		"team": "TOR",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "TOR"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5664",
 		"URL": "/basketball/player/malaki-branham-5664",
 		"firstname": "Malaki",
-		"injury": "Concussion",
 		"lastname": "Branham",
 		"player": "Malaki Branham",
+		"team": "SAS",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Concussion",
 		"status": "Game Time Decision",
-		"team": "SAS"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4383",
 		"URL": "/basketball/player/miles-bridges-4383",
 		"firstname": "Miles",
-		"injury": "Wrist",
 		"lastname": "Bridges",
 		"player": "Miles Bridges",
+		"team": "CHA",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Wrist",
 		"status": "Game Time Decision",
-		"team": "CHA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4829",
 		"URL": "/basketball/player/charlie-brown-4829",
 		"firstname": "Charlie",
-		"injury": "Concussion",
 		"lastname": "Brown",
 		"player": "Charlie Brown",
+		"team": "ORL",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Concussion",
 		"status": "Game Time Decision",
-		"team": "ORL"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5892",
 		"URL": "/basketball/player/kobe-bufkin-5892",
 		"firstname": "Kobe",
-		"injury": "Shoulder",
 		"lastname": "Bufkin",
 		"player": "Kobe Bufkin",
+		"team": "ATL",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Shoulder",
 		"status": "Game Time Decision",
-		"team": "ATL"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3231",
 		"URL": "/basketball/player/jimmy-butler-3231",
 		"firstname": "Jimmy",
-		"injury": "Knee",
 		"lastname": "Butler",
 		"player": "Jimmy Butler",
+		"team": "MIA",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "MIA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5987",
 		"URL": "/basketball/player/toumani-camara-5987",
 		"firstname": "Toumani",
-		"injury": "Ribs",
 		"lastname": "Camara",
 		"player": "Toumani Camara",
+		"team": "POR",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ribs",
 		"status": "Game Time Decision",
-		"team": "POR"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6265",
 		"URL": "/basketball/player/devin-carter-6265",
 		"firstname": "Devin",
-		"injury": "Shoulder",
 		"lastname": "Carter",
 		"player": "Devin Carter",
+		"team": "SAC",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Shoulder",
 		"status": "Out",
-		"team": "SAC"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4407",
 		"URL": "/basketball/player/wendell-carter-4407",
 		"firstname": "Wendell",
-		"injury": "Finger",
 		"lastname": "Carter",
 		"player": "Wendell Carter",
+		"team": "ORL",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Finger",
 		"status": "Game Time Decision",
-		"team": "ORL"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5442",
 		"URL": "/basketball/player/dj-carton-5442",
 		"firstname": "D.J.",
-		"injury": "Ankle",
 		"lastname": "Carton",
 		"player": "D.J. Carton",
+		"team": "TOR",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "TOR"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6250",
 		"URL": "/basketball/player/stephon-castle-6250",
 		"firstname": "Stephon",
-		"injury": "Wrist",
 		"lastname": "Castle",
 		"player": "Stephon Castle",
+		"team": "SAS",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Wrist",
 		"status": "Game Time Decision",
-		"team": "SAS"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5799",
 		"URL": "/basketball/player/sidy-cissoko-5799",
 		"firstname": "Sidy",
-		"injury": "Undisclosed",
 		"lastname": "Cissoko",
 		"player": "Sidy Cissoko",
+		"team": "SAS",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Undisclosed",
 		"status": "Game Time Decision",
-		"team": "SAS"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5972",
 		"URL": "/basketball/player/jaylen-clark-5972",
 		"firstname": "Jaylen",
-		"injury": "Undisclosed",
 		"lastname": "Clark",
 		"player": "Jaylen Clark",
+		"team": "MIN",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Undisclosed",
 		"status": "Game Time Decision",
-		"team": "MIN"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4819",
 		"URL": "/basketball/player/brandon-clarke-4819",
 		"firstname": "Brandon",
-		"injury": "Hand",
 		"lastname": "Clarke",
 		"player": "Brandon Clarke",
+		"team": "MEM",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Hand",
 		"status": "Game Time Decision",
-		"team": "MEM"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3614",
 		"URL": "/basketball/player/jordan-clarkson-3614",
 		"firstname": "Jordan",
-		"injury": "Back",
 		"lastname": "Clarkson",
 		"player": "Jordan Clarkson",
+		"team": "UTA",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Back",
 		"status": "Game Time Decision",
-		"team": "UTA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6260",
 		"URL": "/basketball/player/isaiah-collier-6260",
 		"firstname": "Isaiah",
-		"injury": "Knee",
 		"lastname": "Collier",
 		"player": "Isaiah Collier",
+		"team": "UTA",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "UTA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4159",
 		"URL": "/basketball/player/john-collins-4159",
 		"firstname": "John",
-		"injury": "Back",
 		"lastname": "Collins",
 		"player": "John Collins",
+		"team": "UTA",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Back",
 		"status": "Game Time Decision",
-		"team": "UTA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4162",
 		"URL": "/basketball/player/zach-collins-4162",
 		"firstname": "Zach",
-		"injury": "Shoulder",
 		"lastname": "Collins",
 		"player": "Zach Collins",
+		"team": "SAS",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Shoulder",
 		"status": "Game Time Decision",
-		"team": "SAS"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3498",
 		"URL": "/basketball/player/seth-curry-3498",
 		"firstname": "Seth",
-		"injury": "Ankle",
 		"lastname": "Curry",
 		"player": "Seth Curry",
+		"team": "CHA",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "CHA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5359",
 		"URL": "/basketball/player/darius-days-5359",
 		"firstname": "Darius",
-		"injury": "Illness",
 		"lastname": "Days",
 		"player": "Darius Days",
+		"team": "PHI",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Illness",
 		"status": "Game Time Decision",
-		"team": "PHI"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5927",
 		"URL": "/basketball/player/gradey-dick-5927",
 		"firstname": "Gradey",
-		"injury": "Ankle",
 		"lastname": "Dick",
 		"player": "Gradey Dick",
+		"team": "TOR",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "TOR"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6325",
 		"URL": "/basketball/player/alex-ducas-6325",
 		"firstname": "Alex",
-		"injury": "Hip",
 		"lastname": "Ducas",
 		"player": "Alex Ducas",
+		"team": "OKC",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Hip",
 		"status": "Game Time Decision",
-		"team": "OKC"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5346",
 		"URL": "/basketball/player/david-duke-5346",
 		"firstname": "David",
-		"injury": "Undisclosed",
 		"lastname": "Duke",
 		"player": "David Duke",
+		"team": "SAS",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Undisclosed",
 		"status": "Game Time Decision",
-		"team": "SAS"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6276",
 		"URL": "/basketball/player/ryan-dunn-6276",
 		"firstname": "Ryan",
-		"injury": "Knee",
 		"lastname": "Dunn",
 		"player": "Ryan Dunn",
+		"team": "PHX",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "PHX"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5703",
 		"URL": "/basketball/player/jalen-duren-5703",
 		"firstname": "Jalen",
-		"injury": "Back",
 		"lastname": "Duren",
 		"player": "Jalen Duren",
+		"team": "DET",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Back",
 		"status": "Game Time Decision",
-		"team": "DET"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5704",
 		"URL": "/basketball/player/tari-eason-5704",
 		"firstname": "Tari",
-		"injury": "Lower Leg",
 		"lastname": "Eason",
 		"player": "Tari Eason",
+		"team": "HOU",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Lower Leg",
 		"status": "Game Time Decision",
-		"team": "HOU"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6263",
 		"URL": "/basketball/player/zach-edey-6263",
 		"firstname": "Zach",
-		"injury": "Ankle",
 		"lastname": "Edey",
 		"player": "Zach Edey",
+		"team": "MEM",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "MEM"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3911",
 		"URL": "/basketball/player/dorian-finney-smith-3911",
 		"firstname": "Dorian",
-		"injury": "Knee",
 		"lastname": "Finney-Smith",
 		"player": "Dorian Finney-Smith",
+		"team": "BKN",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "BKN"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5797",
 		"URL": "/basketball/player/simone-fontecchio-5797",
 		"firstname": "Simone",
-		"injury": "Toe",
 		"lastname": "Fontecchio",
 		"player": "Simone Fontecchio",
+		"team": "DET",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Toe",
 		"status": "Game Time Decision",
-		"team": "DET"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5941",
 		"URL": "/basketball/player/armaan-franklin-5941",
 		"firstname": "Armaan",
-		"injury": "Ankle",
 		"lastname": "Franklin",
 		"player": "Armaan Franklin",
+		"team": "DEN",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "DEN"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3588",
 		"URL": "/basketball/player/jerami-grant-3588",
 		"firstname": "Jerami",
-		"injury": "Hamstring",
 		"lastname": "Grant",
 		"player": "Jerami Grant",
+		"team": "POR",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Hamstring",
 		"status": "Game Time Decision",
-		"team": "POR"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5968",
 		"URL": "/basketball/player/mouhamed-gueye-5968",
 		"firstname": "Mouhamed",
-		"injury": "Hip",
 		"lastname": "Gueye",
 		"player": "Mouhamed Gueye",
+		"team": "ATL",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Hip",
 		"status": "Game Time Decision",
-		"team": "ATL"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5114",
 		"URL": "/basketball/player/tyrese-haliburton-5114",
 		"firstname": "Tyrese",
-		"injury": "Leg",
 		"lastname": "Haliburton",
 		"player": "Tyrese Haliburton",
+		"team": "IND",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Leg",
 		"status": "Game Time Decision",
-		"team": "IND"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5935",
 		"URL": "/basketball/player/jordan-hawkins-5935",
 		"firstname": "Jordan",
-		"injury": "Ankle",
 		"lastname": "Hawkins",
 		"player": "Jordan Hawkins",
+		"team": "NOP",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "NOP"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5377",
 		"URL": "/basketball/player/scoot-henderson-5377",
 		"firstname": "Scoot",
-		"injury": "Hip",
 		"lastname": "Henderson",
 		"player": "Scoot Henderson",
+		"team": "POR",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Hip",
 		"status": "Game Time Decision",
-		"team": "POR"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5903",
 		"URL": "/basketball/player/taylor-hendricks-5903",
 		"firstname": "Taylor",
-		"injury": "Personal",
 		"lastname": "Hendricks",
 		"player": "Taylor Hendricks",
+		"team": "UTA",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Personal",
 		"status": "Game Time Decision",
-		"team": "UTA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6052",
 		"URL": "/basketball/player/nadir-hifi-6052",
 		"firstname": "Nadir",
-		"injury": "Personal",
 		"lastname": "Hifi",
 		"player": "Nadir Hifi",
+		"team": "MIN",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Personal",
 		"status": "Game Time Decision",
-		"team": "MIN"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6288",
 		"URL": "/basketball/player/daron-holmes-6288",
 		"firstname": "DaRon",
-		"injury": "Achilles",
 		"lastname": "Holmes",
 		"player": "DaRon Holmes",
+		"team": "DEN",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Achilles",
 		"status": "Out For Season",
-		"team": "DEN"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5897",
 		"URL": "/basketball/player/jalen-hood-schifino-5897",
 		"firstname": "Jalen",
-		"injury": "Back",
 		"lastname": "Hood-Schifino",
 		"player": "Jalen Hood-Schifino",
+		"team": "LAL",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Back",
 		"status": "Game Time Decision",
-		"team": "LAL"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4449",
 		"URL": "/basketball/player/kevin-huerter-4449",
 		"firstname": "Kevin",
-		"injury": "Shoulder",
 		"lastname": "Huerter",
 		"player": "Kevin Huerter",
+		"team": "SAC",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Shoulder",
 		"status": "Game Time Decision",
-		"team": "SAC"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3186",
 		"URL": "/basketball/player/kyrie-irving-3186",
 		"firstname": "Kyrie",
-		"injury": "Hand",
 		"lastname": "Irving",
 		"player": "Kyrie Irving",
+		"team": "DAL",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Hand",
 		"status": "Game Time Decision",
-		"team": "DAL"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4384",
 		"URL": "/basketball/player/jaren-jackson-4384",
 		"firstname": "Jaren",
-		"injury": "Quadriceps",
 		"lastname": "Jackson",
 		"player": "Jaren Jackson",
+		"team": "MEM",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Quadriceps",
 		"status": "Game Time Decision",
-		"team": "MEM"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5947",
 		"URL": "/basketball/player/andre-jackson-5947",
 		"firstname": "Andre",
-		"injury": "Finger",
 		"lastname": "Jackson",
 		"player": "Andre Jackson",
+		"team": "MIL",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Finger",
 		"status": "Game Time Decision",
-		"team": "MIL"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4774",
 		"URL": "/basketball/player/ty-jerome-4774",
 		"firstname": "Ty",
-		"injury": "Ankle",
 		"lastname": "Jerome",
 		"player": "Ty Jerome",
+		"team": "CLE",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "CLE"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5329",
 		"URL": "/basketball/player/jalen-johnson-5329",
 		"firstname": "Jalen",
-		"injury": "Ankle",
 		"lastname": "Johnson",
 		"player": "Jalen Johnson",
+		"team": "ATL",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "ATL"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4916",
 		"URL": "/basketball/player/cameron-johnson-4916",
 		"firstname": "Cameron",
-		"injury": "Toe",
 		"lastname": "Johnson",
 		"player": "Cameron Johnson",
+		"team": "BKN",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Toe",
 		"status": "Game Time Decision",
-		"team": "BKN"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6285",
 		"URL": "/basketball/player/keshad-johnson-6285",
 		"firstname": "Keshad",
-		"injury": "Ankle",
 		"lastname": "Johnson",
 		"player": "Keshad Johnson",
+		"team": "MIA",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "MIA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4782",
 		"URL": "/basketball/player/keldon-johnson-4782",
 		"firstname": "Keldon",
-		"injury": "Foot",
 		"lastname": "Johnson",
 		"player": "Keldon Johnson",
+		"team": "SAS",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Foot",
 		"status": "Game Time Decision",
-		"team": "SAS"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3739",
 		"URL": "/basketball/player/tyus-jones-3739",
 		"firstname": "Tyus",
-		"injury": "Back",
 		"lastname": "Jones",
 		"player": "Tyus Jones",
+		"team": "PHX",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Back",
 		"status": "Game Time Decision",
-		"team": "PHX"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5386",
 		"URL": "/basketball/player/kai-jones-5386",
 		"firstname": "Kai",
-		"injury": "Ankle",
 		"lastname": "Jones",
 		"player": "Kai Jones",
+		"team": "LAC",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "LAC"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4123",
 		"URL": "/basketball/player/luke-kennard-4123",
 		"firstname": "Luke",
-		"injury": "Knee",
 		"lastname": "Kennard",
 		"player": "Luke Kennard",
+		"team": "MEM",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "MEM"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4864",
 		"URL": "/basketball/player/john-konchar-4864",
 		"firstname": "John",
-		"injury": "Heel",
 		"lastname": "Konchar",
 		"player": "John Konchar",
+		"team": "MEM",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Heel",
 		"status": "Game Time Decision",
-		"team": "MEM"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4167",
 		"URL": "/basketball/player/kyle-kuzma-4167",
 		"firstname": "Kyle",
-		"injury": "Ankle",
 		"lastname": "Kuzma",
 		"player": "Kyle Kuzma",
+		"team": "WAS",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "WAS"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4762",
 		"URL": "/basketball/player/romeo-langford-4762",
 		"firstname": "Romeo",
-		"injury": "Toe",
 		"lastname": "Langford",
 		"player": "Romeo Langford",
+		"team": "PHI",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Toe",
 		"status": "Game Time Decision",
-		"team": "PHI"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3947",
 		"URL": "/basketball/player/damion-lee-3947",
 		"firstname": "Damion",
-		"injury": "Knee",
 		"lastname": "Lee",
 		"player": "Damion Lee",
+		"team": "PHX",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "PHX"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3195",
 		"URL": "/basketball/player/kawhi-leonard-3195",
 		"firstname": "Kawhi",
-		"injury": "Knee",
 		"lastname": "Leonard",
 		"player": "Kawhi Leonard",
+		"team": "LAC",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "LAC"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3914",
 		"URL": "/basketball/player/caris-levert-3914",
 		"firstname": "Caris",
-		"injury": "Knee",
 		"lastname": "LeVert",
 		"player": "Caris LeVert",
+		"team": "CLE",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "CLE"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6003",
 		"URL": "/basketball/player/seth-lundy-6003",
 		"firstname": "Seth",
-		"injury": "Ankle",
 		"lastname": "Lundy",
 		"player": "Seth Lundy",
+		"team": "ATL",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "ATL"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4119",
 		"URL": "/basketball/player/lauri-markkanen-4119",
 		"firstname": "Lauri",
-		"injury": "Shoulder",
 		"lastname": "Markkanen",
 		"player": "Lauri Markkanen",
+		"team": "UTA",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Shoulder",
 		"status": "Game Time Decision",
-		"team": "UTA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4929",
 		"URL": "/basketball/player/cody-martin-4929",
 		"firstname": "Cody",
-		"injury": "Ankle",
 		"lastname": "Martin",
 		"player": "Cody Martin",
+		"team": "CHA",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "CHA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5698",
 		"URL": "/basketball/player/bennedict-mathurin-5698",
 		"firstname": "Bennedict",
-		"injury": "Shoulder",
 		"lastname": "Mathurin",
 		"player": "Bennedict Mathurin",
+		"team": "IND",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Shoulder",
 		"status": "Game Time Decision",
-		"team": "IND"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5737",
 		"URL": "/basketball/player/karlo-matkovic-5737",
 		"firstname": "Karlo",
-		"injury": "Groin",
 		"lastname": "Matkovic",
 		"player": "Karlo Matkovic",
+		"team": "NOP",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Groin",
 		"status": "Game Time Decision",
-		"team": "NOP"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5402",
 		"URL": "/basketball/player/miles-mcbride-5402",
 		"firstname": "Miles",
-		"injury": "Toe",
 		"lastname": "McBride",
 		"player": "Miles McBride",
+		"team": "NYK",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Toe",
 		"status": "Game Time Decision",
-		"team": "NYK"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5983",
 		"URL": "/basketball/player/kevin-mccullar-5983",
 		"firstname": "Kevin",
-		"injury": "Knee",
 		"lastname": "McCullar",
 		"player": "Kevin McCullar",
+		"team": "NYK",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "NYK"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3356",
 		"URL": "/basketball/player/khris-middleton-3356",
 		"firstname": "Khris",
-		"injury": "Ankle",
 		"lastname": "Middleton",
 		"player": "Khris Middleton",
+		"team": "MIL",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Out",
-		"team": "MIL"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5896",
 		"URL": "/basketball/player/brandon-miller-5896",
 		"firstname": "Brandon",
-		"injury": "Wrist",
 		"lastname": "Miller",
 		"player": "Brandon Miller",
+		"team": "CHA",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Wrist",
 		"status": "Game Time Decision",
-		"team": "CHA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6268",
 		"URL": "/basketball/player/yves-missi-6268",
 		"firstname": "Yves",
-		"injury": "Back",
 		"lastname": "Missi",
 		"player": "Yves Missi",
+		"team": "NOP",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Back",
 		"status": "Game Time Decision",
-		"team": "NOP"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4166",
 		"URL": "/basketball/player/donovan-mitchell-4166",
 		"firstname": "Donovan",
-		"injury": "Calf",
 		"lastname": "Mitchell",
 		"player": "Donovan Mitchell",
+		"team": "CLE",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Calf",
 		"status": "Game Time Decision",
-		"team": "CLE"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6310",
 		"URL": "/basketball/player/jonathan-mogbo-6310",
 		"firstname": "Jonathan",
-		"injury": "Back",
 		"lastname": "Mogbo",
 		"player": "Jonathan Mogbo",
+		"team": "TOR",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Back",
 		"status": "Game Time Decision",
-		"team": "TOR"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4117",
 		"URL": "/basketball/player/malik-monk-4117",
 		"firstname": "Malik",
-		"injury": "Knee",
 		"lastname": "Monk",
 		"player": "Malik Monk",
+		"team": "SAC",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "SAC"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5118",
 		"URL": "/basketball/player/onyeka-okongwu-5118",
 		"firstname": "Onyeka",
-		"injury": "Toe",
 		"lastname": "Okongwu",
 		"player": "Onyeka Okongwu",
+		"team": "ATL",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Toe",
 		"status": "Game Time Decision",
-		"team": "ATL"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5918",
 		"URL": "/basketball/player/jalen-pickett-5918",
 		"firstname": "Jalen",
-		"injury": "Groin",
 		"lastname": "Pickett",
 		"player": "Jalen Pickett",
+		"team": "DEN",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Groin",
 		"status": "Game Time Decision",
-		"team": "DEN"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3870",
 		"URL": "/basketball/player/jakob-poeltl-3870",
 		"firstname": "Jakob",
-		"injury": "Finger",
 		"lastname": "Poeltl",
 		"player": "Jakob Poeltl",
+		"team": "TOR",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Finger",
 		"status": "Game Time Decision",
-		"team": "TOR"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4791",
 		"URL": "/basketball/player/jordan-poole-4791",
 		"firstname": "Jordan",
-		"injury": "Illness",
 		"lastname": "Poole",
 		"player": "Jordan Poole",
+		"team": "WAS",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Illness",
 		"status": "Game Time Decision",
-		"team": "WAS"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3669",
 		"URL": "/basketball/player/kristaps-porzingis-3669",
 		"firstname": "Kristaps",
-		"injury": "Foot",
 		"lastname": "Porzingis",
 		"player": "Kristaps Porzingis",
+		"team": "BOS",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Foot",
 		"status": "Out",
-		"team": "BOS"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5979",
 		"URL": "/basketball/player/justin-powell-5979",
 		"firstname": "Justin",
-		"injury": "Groin",
 		"lastname": "Powell",
 		"player": "Justin Powell",
+		"team": "PHI",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Groin",
 		"status": "Game Time Decision",
-		"team": "PHI"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5429",
 		"URL": "/basketball/player/jason-preston-5429",
 		"firstname": "Jason",
-		"injury": "Personal",
 		"lastname": "Preston",
 		"player": "Jason Preston",
+		"team": "UTA",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Personal",
 		"status": "Game Time Decision",
-		"team": "UTA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3574",
 		"URL": "/basketball/player/julius-randle-3574",
 		"firstname": "Julius",
-		"injury": "Shoulder",
 		"lastname": "Randle",
 		"player": "Julius Randle",
+		"team": "NYK",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Shoulder",
 		"status": "Game Time Decision",
-		"team": "NYK"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4772",
 		"URL": "/basketball/player/cam-reddish-4772",
 		"firstname": "Cam",
-		"injury": "Ankle",
 		"lastname": "Reddish",
 		"player": "Cam Reddish",
+		"team": "LAL",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "LAL"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5212",
 		"URL": "/basketball/player/nick-richards-5212",
 		"firstname": "Nick",
-		"injury": "Foot",
 		"lastname": "Richards",
 		"player": "Nick Richards",
+		"team": "CHA",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Foot",
 		"status": "Game Time Decision",
-		"team": "CHA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3770",
 		"URL": "/basketball/player/josh-richardson-3770",
 		"firstname": "Josh",
-		"injury": "Shoulder",
 		"lastname": "Richardson",
 		"player": "Josh Richardson",
+		"team": "MIA",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Shoulder",
 		"status": "Game Time Decision",
-		"team": "MIA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6249",
 		"URL": "/basketball/player/zaccharie-risacher-6249",
 		"firstname": "Zaccharie",
-		"injury": "Quadriceps",
 		"lastname": "Risacher",
 		"player": "Zaccharie Risacher",
+		"team": "ATL",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Quadriceps",
 		"status": "Game Time Decision",
-		"team": "ATL"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4426",
 		"URL": "/basketball/player/mitchell-robinson-4426",
 		"firstname": "Mitchell",
-		"injury": "Ankle",
 		"lastname": "Robinson",
 		"player": "Mitchell Robinson",
+		"team": "NYK",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "NYK"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "2921",
 		"URL": "/basketball/player/derrick-rose-2921",
 		"firstname": "Derrick",
-		"injury": "Groin",
 		"lastname": "Rose",
 		"player": "Derrick Rose",
+		"team": "MEM",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Groin",
 		"status": "Game Time Decision",
-		"team": "MEM"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5404",
 		"URL": "/basketball/player/alperen-sengun-5404",
 		"firstname": "Alperen",
-		"injury": "Ankle",
 		"lastname": "Sengun",
 		"player": "Alperen Sengun",
+		"team": "HOU",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "HOU"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5937",
 		"URL": "/basketball/player/brice-sensabaugh-5937",
 		"firstname": "Brice",
-		"injury": "Finger",
 		"lastname": "Sensabaugh",
 		"player": "Brice Sensabaugh",
+		"team": "UTA",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Finger",
 		"status": "Game Time Decision",
-		"team": "UTA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4412",
 		"URL": "/basketball/player/collin-sexton-4412",
 		"firstname": "Collin",
-		"injury": "Illness",
 		"lastname": "Sexton",
 		"player": "Collin Sexton",
+		"team": "UTA",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Illness",
 		"status": "Game Time Decision",
-		"team": "UTA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6278",
 		"URL": "/basketball/player/terrence-shannon-6278",
 		"firstname": "Terrence",
-		"injury": "Toe",
 		"lastname": "Shannon",
 		"player": "Terrence Shannon",
+		"team": "MIN",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Toe",
 		"status": "Game Time Decision",
-		"team": "MIN"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5418",
 		"URL": "/basketball/player/dayron-sharpe-5418",
 		"firstname": "Day'Ron",
-		"injury": "Wrist",
 		"lastname": "Sharpe",
 		"player": "Day'Ron Sharpe",
+		"team": "BKN",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Wrist",
 		"status": "Game Time Decision",
-		"team": "BKN"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5693",
 		"URL": "/basketball/player/shaedon-sharpe-5693",
 		"firstname": "Shaedon",
-		"injury": "Abdomen",
 		"lastname": "Sharpe",
 		"player": "Shaedon Sharpe",
+		"team": "POR",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Abdomen",
 		"status": "Game Time Decision",
-		"team": "POR"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3849",
 		"URL": "/basketball/player/ben-simmons-3849",
 		"firstname": "Ben",
-		"injury": "Back",
 		"lastname": "Simmons",
 		"player": "Ben Simmons",
+		"team": "BKN",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Back",
 		"status": "Game Time Decision",
-		"team": "BKN"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4373",
 		"URL": "/basketball/player/anfernee-simons-4373",
 		"firstname": "Anfernee",
-		"injury": "Knee",
 		"lastname": "Simons",
 		"player": "Anfernee Simons",
+		"team": "POR",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "POR"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6286",
 		"URL": "/basketball/player/kj-simpson-6286",
 		"firstname": "KJ",
-		"injury": "Hamstring",
 		"lastname": "Simpson",
 		"player": "KJ Simpson",
+		"team": "CHA",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Hamstring",
 		"status": "Out",
-		"team": "CHA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3575",
 		"URL": "/basketball/player/marcus-smart-3575",
 		"firstname": "Marcus",
-		"injury": "Finger",
 		"lastname": "Smart",
 		"player": "Marcus Smart",
+		"team": "MEM",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Finger",
 		"status": "Game Time Decision",
-		"team": "MEM"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6297",
 		"URL": "/basketball/player/cam-spencer-6297",
 		"firstname": "Cam",
-		"injury": "Ankle",
 		"lastname": "Spencer",
 		"player": "Cam Spencer",
+		"team": "MEM",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "MEM"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5137",
 		"URL": "/basketball/player/isaiah-stewart-5137",
 		"firstname": "Isaiah",
-		"injury": "Hamstring",
 		"lastname": "Stewart",
 		"player": "Isaiah Stewart",
+		"team": "DET",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Hamstring",
 		"status": "Game Time Decision",
-		"team": "DET"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4599",
 		"URL": "/basketball/player/jaesean-tate-4599",
 		"firstname": "Jae'Sean",
-		"injury": "Ankle",
 		"lastname": "Tate",
 		"player": "Jae'Sean Tate",
+		"team": "HOU",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "HOU"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5932",
 		"URL": "/basketball/player/ausar-thompson-5932",
 		"firstname": "Ausar",
-		"injury": "Illness",
 		"lastname": "Thompson",
 		"player": "Ausar Thompson",
+		"team": "DET",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Illness",
 		"status": "Game Time Decision",
-		"team": "DET"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4802",
 		"URL": "/basketball/player/matisse-thybulle-4802",
 		"firstname": "Matisse",
-		"injury": "Ankle",
 		"lastname": "Thybulle",
 		"player": "Matisse Thybulle",
+		"team": "POR",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "POR"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6256",
 		"URL": "/basketball/player/nikola-topic-6256",
 		"firstname": "Nikola",
-		"injury": "Knee",
 		"lastname": "Topic",
 		"player": "Nikola Topic",
+		"team": "OKC",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Out",
-		"team": "OKC"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5815",
 		"URL": "/basketball/player/stanley-umude-5815",
 		"firstname": "Stanley",
-		"injury": "Ankle",
 		"lastname": "Umude",
 		"player": "Stanley Umude",
+		"team": "MIL",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "MIL"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "3935",
 		"URL": "/basketball/player/fred-vanvleet-3935",
 		"firstname": "Fred",
-		"injury": "Hip",
 		"lastname": "VanVleet",
 		"player": "Fred VanVleet",
+		"team": "HOU",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Hip",
 		"status": "Game Time Decision",
-		"team": "HOU"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5113",
 		"URL": "/basketball/player/devin-vassell-5113",
 		"firstname": "Devin",
-		"injury": "Foot",
 		"lastname": "Vassell",
 		"player": "Devin Vassell",
+		"team": "SAS",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Foot",
 		"status": "Game Time Decision",
-		"team": "SAS"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5675",
 		"URL": "/basketball/player/jabari-walker-5675",
 		"firstname": "Jabari",
-		"injury": "Knee",
 		"lastname": "Walker",
 		"player": "Jabari Walker",
+		"team": "POR",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "POR"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5417",
 		"URL": "/basketball/player/duane-washington-5417",
 		"firstname": "Duane",
-		"injury": "Knee",
 		"lastname": "Washington",
 		"player": "Duane Washington",
+		"team": "NYK",
 		"position": "G",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "NYK"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5734",
 		"URL": "/basketball/player/vince-williams-5734",
 		"firstname": "Vince",
-		"injury": "Knee",
 		"lastname": "Williams",
 		"player": "Vince Williams",
+		"team": "MEM",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "MEM"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5647",
 		"URL": "/basketball/player/mark-williams-5647",
 		"firstname": "Mark",
-		"injury": "Back",
 		"lastname": "Williams",
 		"player": "Mark Williams",
+		"team": "CHA",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Back",
 		"status": "Game Time Decision",
-		"team": "CHA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "5400",
 		"URL": "/basketball/player/ziaire-williams-5400",
 		"firstname": "Ziaire",
-		"injury": "Hip",
 		"lastname": "Williams",
 		"player": "Ziaire Williams",
+		"team": "BKN",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Hip",
 		"status": "Game Time Decision",
-		"team": "BKN"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4814",
 		"URL": "/basketball/player/grant-williams-4814",
 		"firstname": "Grant",
-		"injury": "Ankle",
 		"lastname": "Williams",
 		"player": "Grant Williams",
+		"team": "CHA",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Ankle",
 		"status": "Game Time Decision",
-		"team": "CHA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4382",
 		"URL": "/basketball/player/robert-williams-4382",
 		"firstname": "Robert",
-		"injury": "Knee",
 		"lastname": "Williams",
 		"player": "Robert Williams",
+		"team": "POR",
 		"position": "C",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Knee",
 		"status": "Game Time Decision",
-		"team": "POR"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "6259",
 		"URL": "/basketball/player/cody-williams-6259",
 		"firstname": "Cody",
-		"injury": "Illness",
 		"lastname": "Williams",
 		"player": "Cody Williams",
+		"team": "UTA",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Illness",
 		"status": "Game Time Decision",
-		"team": "UTA"
+		"r_date": "<i>Subscribers Only</i>"
 	},
 	{
 		"ID": "4777",
 		"URL": "/basketball/player/zion-williamson-4777",
 		"firstname": "Zion",
-		"injury": "Hamstring",
 		"lastname": "Williamson",
 		"player": "Zion Williamson",
+		"team": "NOP",
 		"position": "F",
-		"rDate": "<i>Subscribers Only</i>",
+		"injury": "Hamstring",
 		"status": "Game Time Decision",
-		"team": "NOP"
+		"r_date": "<i>Subscribers Only</i>"
 	}
 ]
