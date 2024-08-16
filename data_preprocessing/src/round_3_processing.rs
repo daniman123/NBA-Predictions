@@ -1,13 +1,36 @@
 use read_write::{config_reader::Config, read_df_from_json, write_df_to_json};
 
+/// # Arguments
+/// - `input_save_path`: Input path`&str` to `DataFrame` stored in json file.
+/// - `output_save_path`: Output path`&str` to store `DataFrame`, as json file.
+/// - `columns_to_be_removed`: Vector `Vec<&str>` containing the names of `DataFrame` columns to be removed.
+/// # Returns
+/// - `()`: void.
+///
+pub fn drop_unused_columns_and_store_df(
+    input_save_path: &str,
+    output_save_path: &str,
+    columns_to_be_removed: Vec<&str>,
+) {
+    let mut df = read_df_from_json(input_save_path);
+    df = df.drop_many(&columns_to_be_removed);
+    write_df_to_json(output_save_path, df);
+}
+
+pub fn iterate_through_datasets(config: Config, container_columns_to_be_removed: &[Vec<&str>; 5]) {
+    for (index, input_json_save_rnd_2) in config.json_data_save_paths_round_2.iter().enumerate() {
+        let output_json_save_rnd_3 = &config.json_data_save_paths_round_3[index];
+        drop_unused_columns_and_store_df(
+            input_json_save_rnd_2,
+            output_json_save_rnd_3,
+            container_columns_to_be_removed[index].clone(),
+        );
+    }
+}
+
 pub fn round_3_processing_dataframe() {
     let config = Config::new();
-    let save_path_round_2_teams_general_advanced = &config.json_data_save_paths_round_2[0];
-    let save_path_round_2_opponent_shooting_general = &config.json_data_save_paths_round_2[1];
-    let save_path_round_2_teams_general_opponent = &config.json_data_save_paths_round_2[2];
-    let save_path_round_2_players_general = &config.json_data_save_paths_round_2[3];
 
-    let mut df_teams_general_advanced = read_df_from_json(save_path_round_2_teams_general_advanced);
     let cols_to_remove_df_teams_general_advanced = [
         "PACE_RANK",
         "MIN_RANK",
@@ -29,29 +52,7 @@ pub fn round_3_processing_dataframe() {
         "DREB_PCT_RANK",
         "REB_PCT_RANK",
     ];
-    df_teams_general_advanced =
-        df_teams_general_advanced.drop_many(&cols_to_remove_df_teams_general_advanced);
-    // Store df
-    let save_path_round_3_teams_general_advanced = &config.json_data_save_paths_round_3[0];
-    write_df_to_json(
-        save_path_round_3_teams_general_advanced,
-        df_teams_general_advanced,
-    );
-
-    let mut df_opponent_shooting_general =
-        read_df_from_json(save_path_round_2_opponent_shooting_general);
     let cols_to_remove_df_opponent_shooting_general = ["G"];
-
-    df_opponent_shooting_general =
-        df_opponent_shooting_general.drop_many(&cols_to_remove_df_opponent_shooting_general);
-    // Store df
-    let save_path_round_3_opponent_shooting_general = &config.json_data_save_paths_round_3[1];
-    write_df_to_json(
-        save_path_round_3_opponent_shooting_general,
-        df_opponent_shooting_general,
-    );
-
-    let mut df_teams_general_opponent = read_df_from_json(save_path_round_2_teams_general_opponent);
     let cols_to_remove_df_teams_general_opponent = [
         "MIN_RANK",
         "STL_RANK",
@@ -80,18 +81,6 @@ pub fn round_3_processing_dataframe() {
         "AST_RANK",
         "PF_RANK",
     ];
-
-    df_teams_general_opponent =
-        df_teams_general_opponent.drop_many(&cols_to_remove_df_teams_general_opponent);
-    // Store df
-    let save_path_round_3_teams_general_opponent = &config.json_data_save_paths_round_3[2];
-    write_df_to_json(
-        save_path_round_3_teams_general_opponent,
-        df_teams_general_opponent,
-    );
-
-    let mut df_players_general = read_df_from_json(save_path_round_2_players_general);
-    // println!("{:?}", df_players_general.get_column_names());
     let cols_to_remove_df_players_general = [
         "BLKA_RANK",
         "FGM_RANK",
@@ -130,9 +119,14 @@ pub fn round_3_processing_dataframe() {
         "PLUS_MINUS",
         "DD2",
     ];
+    let cols_to_remove_df_injury_report = ["ID", "URL", "r_date"];
+    let container_columns_to_be_removed: &[Vec<&str>; 5] = &[
+        cols_to_remove_df_teams_general_advanced.to_vec(),
+        cols_to_remove_df_opponent_shooting_general.to_vec(),
+        cols_to_remove_df_teams_general_opponent.to_vec(),
+        cols_to_remove_df_players_general.to_vec(),
+        cols_to_remove_df_injury_report.to_vec(),
+    ];
 
-    df_players_general = df_players_general.drop_many(&cols_to_remove_df_players_general);
-    // Store df
-    let save_path_round_3_players_general = &config.json_data_save_paths_round_3[3];
-    write_df_to_json(save_path_round_3_players_general, df_players_general);
+    iterate_through_datasets(config, container_columns_to_be_removed);
 }
