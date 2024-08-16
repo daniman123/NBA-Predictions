@@ -337,11 +337,8 @@ version = "0.1.0"
 dependencies = [
  "bytes",
  "derive_more",
- "flate2",
- "polars",
  "read-write",
  "reqwest",
- "serde",
  "serde_json",
  "tokio",
 ]
@@ -350,8 +347,11 @@ dependencies = [
 name = "data_preprocessing"
 version = "0.1.0"
 dependencies = [
+ "derive_more",
  "polars",
  "read-write",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]

@@ -2,6 +2,8 @@ pub mod config_reader;
 use bytes::Bytes;
 use flate2::read::GzDecoder;
 use polars::prelude::*;
+use serde_json::Value;
+use std::fs;
 use std::io::Read;
 use std::{
     env,
@@ -33,6 +35,16 @@ where
 {
     create_parent_dir_if_needed(path).unwrap();
     write(path.into(), bytes).unwrap()
+}
+
+pub fn serde_json_reader<P>(path: P) -> Result<Value>
+where
+    P: Into<PathBuf> + std::marker::Copy,
+{
+    let file = fs::File::open(path.into())?;
+    let json: Value = serde_json::from_reader(file)?;
+
+    Ok(json)
 }
 
 /// Writes the given JSON contents to the specified file path.
