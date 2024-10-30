@@ -70,15 +70,19 @@ fn read_player_stats() -> DataFrame {
 }
 
 fn aggregate_working_roster(
+    df_injury_report: DataFrame,
     df_players_general: DataFrame,
     team_id: i32,
     team_stats: TeamStats,
 ) -> DataFrame {
+    let injuries = df_injury_report.select_series(["player"]).unwrap()[0].clone();
+
     // calculate x_fga_fta
     let mut working_stats = df_players_general
         .clone()
         .lazy()
         .filter(col("TEAM_ID").eq(lit(team_id))) // Filter by team ID
+        .filter(col("PLAYER_NAME").is_in(lit(injuries)).not())
         .select(&[
             ((col("MIN") + lit(get_rand()) / lit(10000.0)) / lit(48.0)).alias("MP_RATIO"),
             col("*"),
@@ -225,7 +229,6 @@ fn predict_player_pts(
     {
         let sim_pts_result = (x_fga_fta / fga_fta) * player_pts;
         return binom_inv(binom_inv_ns, sim_pts_result / binom_inv_ns, get_rand());
-        
     }
 
     // Precompute random numbers
@@ -278,10 +281,10 @@ fn sim_team_pts(working_lineup_stats: &[Vec<f64>]) -> f64 {
 }
 
 fn main() {
-    // Indiana Pacers	1610612754
-    let home_team_id = 1610612754;
     // Chicago Bulls	1610612741
-    let away_team_id = 1610612741;
+    let home_team_id = 1610612741;
+    // Orlando Magic	1610612753
+    let away_team_id = 1610612753;
 
     // Gather team Stats
     let mut home_team_stats = get_team_stats(away_team_id);
@@ -300,14 +303,27 @@ fn main() {
     // Gather players Stats
     let df_players_general = read_player_stats();
 
+    // Get injury report DataFrame
+    let config = Config::new();
+    let save_path_round_4_injury_report = &config.json_data_save_paths_round_4[4];
+    let df_injury_report = read_df_from_json(save_path_round_4_injury_report);
+
     // HOME_TEAM: Calculate stats
-    let working_roster_home =
-        aggregate_working_roster(df_players_general.clone(), home_team_id, home_team_stats);
+    let working_roster_home = aggregate_working_roster(
+        df_injury_report.clone(),
+        df_players_general.clone(),
+        home_team_id,
+        home_team_stats,
+    );
     let working_lineup_stats_home = get_lineup_stats(working_roster_home);
 
     // AWAY_TEAM: Calculate stats
-    let working_roster_away =
-        aggregate_working_roster(df_players_general, away_team_id, away_team_stats);
+    let working_roster_away = aggregate_working_roster(
+        df_injury_report.clone(),
+        df_players_general,
+        away_team_id,
+        away_team_stats,
+    );
     let working_lineup_stats_away = get_lineup_stats(working_roster_away);
 
     let ns = 100_000;

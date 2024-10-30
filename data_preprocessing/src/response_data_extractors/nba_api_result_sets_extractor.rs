@@ -45,7 +45,10 @@ fn json_to_series(headers: &[String], rows: &[Vec<Value>]) -> Vec<Series> {
         .collect()
 }
 
-pub fn extract_result_sets_json_data(result_sets_json_data: Value, path: &str) -> Result<()> {
+pub fn extract_result_sets_json_data(
+    result_sets_json_data: Value,
+    path: &str,
+) -> Result<DataFrame> {
     let json_data = serde_json::from_value::<NbaApiResultSetsJsonBody>(result_sets_json_data)?;
     let result_sets = &json_data.resultSets[0];
     let headers = &result_sets.headers;
@@ -54,6 +57,6 @@ pub fn extract_result_sets_json_data(result_sets_json_data: Value, path: &str) -
     let df_result_sets_data =
         DataFrame::new(series_data).expect("DataFrame creation should succeed");
 
-    write_df_to_json(path, df_result_sets_data);
-    Ok(())
+    write_df_to_json(path, df_result_sets_data.clone());
+    Ok(df_result_sets_data)
 }

@@ -21,7 +21,10 @@ struct RotowireData {
 type RotowireApiJsonBody = Vec<RotowireData>;
 // [{"ID":"3445","URL":"\/basketball\/player\/steven-adams-3445","firstname":"Steven","lastname":"Adams","player":"Steven Adams","team":"HOU","position":"C","injury":"Knee","status":"Game Time Decision","rDate":"<i>Subscribers Only<\/i>"},
 
-pub fn extract_rotowire_series_data(rotowire_series_json_data: Value, path: &str) -> Result<()> {
+pub fn extract_rotowire_series_data(
+    rotowire_series_json_data: Value,
+    path: &str,
+) -> Result<DataFrame> {
     let json_data = serde_json::from_value::<RotowireApiJsonBody>(rotowire_series_json_data)?;
 
     // Create a DataFrame with columns
@@ -97,9 +100,10 @@ pub fn extract_rotowire_series_data(rotowire_series_json_data: Value, path: &str
                 .collect::<Vec<&str>>(),
         ),
         // Add other columns as needed
-    ]);
+    ])
+    .unwrap();
 
-    write_df_to_json(path, df_injury_report.unwrap());
+    write_df_to_json(path, df_injury_report.clone());
 
-    Ok(())
+    Ok(df_injury_report.clone())
 }

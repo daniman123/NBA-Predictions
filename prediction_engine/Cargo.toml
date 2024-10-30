@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 read-write = { path = "../read-write"}
-polars = { version = "^0.41.3", features = ["polars-io","json","lazy"] }
+polars = { version = "^0.41.3", features = ["polars-io","json","lazy","is_in"] }
 rand = "0.8.5"
 probability = "0.20.3"
 rayon = "1.10.0"

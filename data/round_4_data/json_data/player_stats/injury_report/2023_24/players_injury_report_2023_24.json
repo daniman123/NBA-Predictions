@@ -1,0 +1,738 @@
+[
+	{
+		"player": "Steven Adams",
+		"team": "HOU",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Ochai Agbaji",
+		"team": "TOR",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Grayson Allen",
+		"team": "PHX",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "OG Anunoby",
+		"team": "NYK",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Marvin Bagley",
+		"team": "WAS",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "LaMelo Ball",
+		"team": "CHA",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Lonzo Ball",
+		"team": "CHI",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Desmond Bane",
+		"team": "MEM",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Dominick Barlow",
+		"team": "ATL",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Charles Bassey",
+		"team": "SAS",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Keita Bates-Diop",
+		"team": "NYK",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{ "player": "Saddiq Bey", "team": "WAS", "position": "F", "status": "Out" },
+	{
+		"player": "Onuralp Bitim",
+		"team": "CHI",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Bojan Bogdanovic",
+		"team": "BKN",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Chris Boucher",
+		"team": "TOR",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Malaki Branham",
+		"team": "SAS",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Miles Bridges",
+		"team": "CHA",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Charlie Brown",
+		"team": "ORL",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Kobe Bufkin",
+		"team": "ATL",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Jimmy Butler",
+		"team": "MIA",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Toumani Camara",
+		"team": "POR",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{ "player": "Devin Carter", "team": "SAC", "position": "G", "status": "Out" },
+	{
+		"player": "Wendell Carter",
+		"team": "ORL",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "D.J. Carton",
+		"team": "TOR",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Stephon Castle",
+		"team": "SAS",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Sidy Cissoko",
+		"team": "SAS",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Jaylen Clark",
+		"team": "MIN",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Brandon Clarke",
+		"team": "MEM",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Jordan Clarkson",
+		"team": "UTA",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Isaiah Collier",
+		"team": "UTA",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "John Collins",
+		"team": "UTA",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Zach Collins",
+		"team": "SAS",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Seth Curry",
+		"team": "CHA",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Darius Days",
+		"team": "PHI",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Gradey Dick",
+		"team": "TOR",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Alex Ducas",
+		"team": "OKC",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "David Duke",
+		"team": "SAS",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Ryan Dunn",
+		"team": "PHX",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Jalen Duren",
+		"team": "DET",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Tari Eason",
+		"team": "HOU",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Zach Edey",
+		"team": "MEM",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Dorian Finney-Smith",
+		"team": "BKN",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Simone Fontecchio",
+		"team": "DET",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Armaan Franklin",
+		"team": "DEN",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Jerami Grant",
+		"team": "POR",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Mouhamed Gueye",
+		"team": "ATL",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Tyrese Haliburton",
+		"team": "IND",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Jordan Hawkins",
+		"team": "NOP",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Scoot Henderson",
+		"team": "POR",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Taylor Hendricks",
+		"team": "UTA",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Nadir Hifi",
+		"team": "MIN",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "DaRon Holmes",
+		"team": "DEN",
+		"position": "C",
+		"status": "Out For Season"
+	},
+	{
+		"player": "Jalen Hood-Schifino",
+		"team": "LAL",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Kevin Huerter",
+		"team": "SAC",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Kyrie Irving",
+		"team": "DAL",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Jaren Jackson",
+		"team": "MEM",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Andre Jackson",
+		"team": "MIL",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Ty Jerome",
+		"team": "CLE",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Jalen Johnson",
+		"team": "ATL",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Cameron Johnson",
+		"team": "BKN",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Keshad Johnson",
+		"team": "MIA",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Keldon Johnson",
+		"team": "SAS",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Tyus Jones",
+		"team": "PHX",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Kai Jones",
+		"team": "LAC",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Luke Kennard",
+		"team": "MEM",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "John Konchar",
+		"team": "MEM",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Kyle Kuzma",
+		"team": "WAS",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Romeo Langford",
+		"team": "PHI",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Damion Lee",
+		"team": "PHX",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Kawhi Leonard",
+		"team": "LAC",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Caris LeVert",
+		"team": "CLE",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Seth Lundy",
+		"team": "ATL",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Lauri Markkanen",
+		"team": "UTA",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Cody Martin",
+		"team": "CHA",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Bennedict Mathurin",
+		"team": "IND",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Karlo Matkovic",
+		"team": "NOP",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Miles McBride",
+		"team": "NYK",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Kevin McCullar",
+		"team": "NYK",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Khris Middleton",
+		"team": "MIL",
+		"position": "F",
+		"status": "Out"
+	},
+	{
+		"player": "Brandon Miller",
+		"team": "CHA",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Yves Missi",
+		"team": "NOP",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Donovan Mitchell",
+		"team": "CLE",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Jonathan Mogbo",
+		"team": "TOR",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Malik Monk",
+		"team": "SAC",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Onyeka Okongwu",
+		"team": "ATL",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Jalen Pickett",
+		"team": "DEN",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Jakob Poeltl",
+		"team": "TOR",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Jordan Poole",
+		"team": "WAS",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Kristaps Porzingis",
+		"team": "BOS",
+		"position": "C",
+		"status": "Out"
+	},
+	{
+		"player": "Justin Powell",
+		"team": "PHI",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Jason Preston",
+		"team": "UTA",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Julius Randle",
+		"team": "NYK",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Cam Reddish",
+		"team": "LAL",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Nick Richards",
+		"team": "CHA",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Josh Richardson",
+		"team": "MIA",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Zaccharie Risacher",
+		"team": "ATL",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Mitchell Robinson",
+		"team": "NYK",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Derrick Rose",
+		"team": "MEM",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Alperen Sengun",
+		"team": "HOU",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Brice Sensabaugh",
+		"team": "UTA",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Collin Sexton",
+		"team": "UTA",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Terrence Shannon",
+		"team": "MIN",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Day'Ron Sharpe",
+		"team": "BKN",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Shaedon Sharpe",
+		"team": "POR",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Ben Simmons",
+		"team": "BKN",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Anfernee Simons",
+		"team": "POR",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{ "player": "KJ Simpson", "team": "CHA", "position": "G", "status": "Out" },
+	{
+		"player": "Marcus Smart",
+		"team": "MEM",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Cam Spencer",
+		"team": "MEM",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Isaiah Stewart",
+		"team": "DET",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Jae'Sean Tate",
+		"team": "HOU",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Ausar Thompson",
+		"team": "DET",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Matisse Thybulle",
+		"team": "POR",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{ "player": "Nikola Topic", "team": "OKC", "position": "G", "status": "Out" },
+	{
+		"player": "Stanley Umude",
+		"team": "MIL",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Fred VanVleet",
+		"team": "HOU",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Devin Vassell",
+		"team": "SAS",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Jabari Walker",
+		"team": "POR",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Duane Washington",
+		"team": "NYK",
+		"position": "G",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Vince Williams",
+		"team": "MEM",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Mark Williams",
+		"team": "CHA",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Ziaire Williams",
+		"team": "BKN",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Grant Williams",
+		"team": "CHA",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Robert Williams",
+		"team": "POR",
+		"position": "C",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Cody Williams",
+		"team": "UTA",
+		"position": "F",
+		"status": "Game Time Decision"
+	},
+	{
+		"player": "Zion Williamson",
+		"team": "NOP",
+		"position": "F",
+		"status": "Game Time Decision"
+	}
+]
